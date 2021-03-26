@@ -1,4 +1,63 @@
 body {
+  width: 80%;
+  max-width: 800px;
+  margin: 3rem auto;
+  font-family: 'IBM Plex Serif', serif;
   color: rgb(23, 28, 28);
-  font-family: 'Crimson Pro', serif;
+}
+
+a {
+  font-weight: 700;
+  color: rgb(23, 28, 28);
+  text-decoration: none;
+  box-shadow: inset 0 -0.4em rgb(255, 255, 0, 0.85);
+}
+
+a:hover {
+  box-shadow: inset 0em 1.4em rgba(255, 255, 0, 0.85);
+}
+
+a:focus {
+  box-shadow: inset 0em 1.4em rgba(255, 255, 0, 0.85);
+  border: 1px solid lightgrey;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+h2 {
+  margin-top: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: blue;
+}
+
+ul li {
+  margin-bottom: 0.75rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+.contact {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.25em;
+}
+
+.contact-item {
+  margin-right: 0.25rem;
+}
+
+.current-position {
+  margin-bottom: 2rem;
 }
