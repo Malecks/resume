@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-  margin: 1em;
+  margin: 2em 1em 4em;
   font-family: 'IBM Plex Serif', serif;
   color: rgb(23, 28, 28);
 }
@@ -43,7 +43,7 @@ header h1 {
 }
 
 footer {
-  margin-top: 3rem;
+  display: none;
 }
 
 .contact, .print-contact {
@@ -67,13 +67,57 @@ footer {
   display: none;
 }
 
+.print-button {
+  display: flex;
+  align-items: center;
+
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  padding: 0.75rem;
+
+  font: 400 0.8em 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #fafafa;
+
+  background-color: rgb(23, 28, 28);
+  border-radius: 2px;
+  border-width: 0;
+
+  box-shadow: -3px -2px 7px rgba(0, 0, 0, 0.25);
+}
+
+.print-button:hover {
+  bottom: calc(1em + 3px);
+  right: calc(1em + 2px);
+  box-shadow: 5px 5px 0px rgba(255, 255, 0, 0.85);
+  color: #d8d8d8;
+}
+
+.print-button svg {
+  fill: #fafafa;
+  margin-right: 0.35rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.print-button:hover svg {
+  fill: #d8d8d8;
+}
 
 /* Media Queries */
 
 /* Contact Nav Break */
-@media (min-width: 530px) {
+@media (min-width: 536px) {
   body {
     margin: 2rem;
+  }
+
+  footer {
+    display: block;
+    padding-top: 1em;
+    margin-bottom: 4rem;
   }
 
   .contact {
@@ -99,10 +143,14 @@ footer {
     font-size: 11px;
   }
 
-  footer {
-    display: none;
+  body {
+    margin: 3rem auto;
+    width: 80%;
+    max-width: 800px;
   }
 
+  footer, 
+  .print-button, 
   .contact {
     display: none;
   }
