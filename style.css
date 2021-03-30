@@ -149,19 +149,8 @@ footer {
     max-width: 800px;
   }
 
-  footer, 
-  .print-button, 
-  .contact {
+  .no-print {
     display: none;
-  }
-
-  .print-contact {
-    display: inline-block;
-  }
-
-  .print-contact ul {
-    padding: 0;
-    margin: 0;
   }
 
   a {

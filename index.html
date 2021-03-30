@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Alex Mathers is a Product Designer and Developer from Toronto, Canada.">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <title>Alex Mathers - Resume</title>
   </head>
@@ -15,16 +15,9 @@
     <header>
       <h1>Alex Mathers</h1>
       <div class="contact">
-        <a class="contact-item" href="https://alexmathers.com" target="_blank">Portfolio</a>
-        <a class="contact-item" href="https://github.com/malecks" target="_blank">GitHub</a>
+        <a class="contact-item no-print" href="https://alexmathers.com" target="_blank">Portfolio</a>
+        <a class="contact-item no-print" href="https://github.com/malecks" target="_blank">GitHub</a>
         <a class="contact-item" href="mailto:alex@alexmathers.com?subject=Hey nice resume!">alex@alexmathers.com</a>
-      </div>
-
-      <div class="print-contact">
-        <ul>
-          <li class="contact-item">alex@alexmathers.com</li>
-          <li class="contact-item">+1 (416)-300-2792</li>
-        </ul>
       </div>
     </header>
 
@@ -80,7 +73,7 @@
   </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="no-print">
       <small>
         &copy; 2021 Alex Mathers &nbsp;
         <a class="contact-item" href="https://alexmathers.com">Portfolio</a>
@@ -90,7 +83,7 @@
     </footer>
 
     <!-- Print Button -->
-    <button class="print-button" onclick="window.print();return false;" >
+    <button class="print-button no-print" onclick="window.print();return false;" >
       <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
       <strong>Print</strong>&nbsp;Resume
     </button>
