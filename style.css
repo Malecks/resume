@@ -47,11 +47,14 @@ footer {
 }
 
 .contact, .print-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   font: 1.5em 'Roboto Condensed', sans-serif;
 }
 
 .contact-item {
-  margin-right: 0.5em;
+  margin-bottom: 0.35em;
   font-weight: 700;
   display: inline;
 }
@@ -67,10 +70,18 @@ footer {
 
 /* Media Queries */
 
-/* Tablet */
-@media (min-width: 481px) {
+/* Contact Nav Break */
+@media (min-width: 530px) {
   body {
     margin: 2rem;
+  }
+
+  .contact {
+    flex-direction: row;
+  }
+
+  .contact-item {
+    margin: 0 0.5em 0 0;
   }
 }
 
