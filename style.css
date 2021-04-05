@@ -1,6 +1,7 @@
 /* Base Styles */
 body {
-  margin: 2em 1em 4em;
+  margin: 2em 2em 4em;
+  max-width: 700px;
   font-family: 'IBM Plex Serif', serif;
   color: rgb(23, 28, 28);
 }
@@ -139,7 +140,6 @@ footer {
   body {
     margin: 3rem auto;
     width: 80%;
-    max-width: 800px;
   }
 }
 
