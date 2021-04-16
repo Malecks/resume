@@ -87,17 +87,13 @@ footer {
   border-width: 0;
   box-shadow: -3px -2px 7px rgba(0, 0, 0, 0.25);
 
-  transition: bottom 100ms ease-in, right 100ms ease-in;
+  transition: .125s ease-in;
 }
 
 .print-button:hover {
-  bottom: calc(1em + 3px);
-  right: calc(1em + 3px);
-
   color: #93979e;
   box-shadow: 5px 5px 0px rgba(255, 255, 0, 0.85);
-
-  transition: bottom 100ms ease-in, right 100ms ease-in;
+  transform: translate(-3px, -3px);
 }
 
 .print-button svg {
@@ -106,6 +102,7 @@ footer {
   height: 1.25rem;
 
   fill: #fafafa;
+  transition: .125s ease-in;
 }
 
 .print-button:hover svg {
