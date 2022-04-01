@@ -16,7 +16,6 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: cornsilk;
   margin: 3rem;
 }
 
@@ -33,7 +32,6 @@ header > * {
 
 main {
   max-width: 750px;
-  background-color: aquamarine;
 }
 
 h1 {
@@ -43,6 +41,7 @@ h1 {
 
 #intro {
   margin-bottom: 1em;
+  line-height: 1.5em;
 }
 
 .contact {
@@ -66,6 +65,7 @@ a:hover {
   border-radius: .5em;
   margin-bottom: 1em;
   background-color: #fff;
+  filter:  drop-shadow(2px 1px 15px #052B430D)
 }
 
 .position-section :last-child {
@@ -81,8 +81,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   width: auto;
-  background-color: #c94848;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .job strong {
@@ -97,7 +96,6 @@ a:hover {
   width: 100%;
   height: min-content;
   justify-content: space-between;
-  background-color: rgb(93, 168, 235);
 }
 
 ul {
@@ -108,9 +106,14 @@ ul li {
   margin-bottom: 0.75rem;
 }
 
-/* Footer */
-.contact-item {
+/* Footer & Small */
+small {
+  display: flex;
+}
+
+small > * {
   margin-right: 1em;
+  color: lightgray;
 }
 
 /* Media Queries */
