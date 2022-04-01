@@ -1,9 +1,5 @@
 # Alex Mathers – Resume
-My name is Alex and I'm a Product Designer, Developer, and Illustrator. I've been building and designing products at @nudgerewards since 2016. 
-
-Previously I've worked as a freelance designer and illustrator for various clients including Tommy Hilfiger, HomeStars, and The Toronto Star; and as an in-house designer at Maclean’s magazine.
-
-I’m a lifelong Skier and outdoor-enthusiast. I like design systems, coding, and my dog Billy!
+My name is Alex. I'm a Senior Product Designer at <a href="http://shopify.com">Shopify</a>, where I focus on mobile design for entrepreneurs looking to start and grow their business. I built an app called <a href="bit.ly/PALette">Palette Cam</a>. I like anything and everything to do with digital art and creating interactive experiences.
 
 
 ## This Project
