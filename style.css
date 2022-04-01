@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 3.5em 2em;
+  margin: 3.5em 2em 0em;
 }
 
 header {
