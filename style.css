@@ -31,7 +31,7 @@ header > * {
 }
 
 main {
-  max-width: 750px;
+  max-width: 650px;
 }
 
 h1 {
@@ -73,11 +73,6 @@ a:hover {
   margin-bottom: 0;
 }
 
-.position-section p {
-  padding: 0;
-  margin: 0;
-}
-
 .job {
   display: flex;
   align-items: flex-start;
@@ -93,10 +88,31 @@ a:hover {
 
 .position {
   display: flex;
-  align-items: flex-start;
-  width: 100%;
-  height: min-content;
   justify-content: space-between;
+  width: 100%;
+}
+
+.position > * {
+  flex-shrink: 0;
+}
+
+.position :first-child {
+  margin-right: .5em;
+}
+
+.position :last-child {
+  margin-left: .5em;
+}
+
+.position em {
+  color: #BBB;
+}
+
+.position-separator {
+  flex-shrink: 1;
+  align-self: center;
+  width: 100%;
+  border-bottom: 1px dashed #DDD;
 }
 
 ul {
@@ -110,11 +126,12 @@ ul li {
 /* Footer & Small */
 small {
   display: flex;
+  margin-left: 1.5em;
 }
 
 small > * {
   margin-right: 1em;
-  color: lightgray;
+  color: #BBB;
 }
 
 /* Media Queries */
