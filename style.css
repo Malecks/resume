@@ -2,17 +2,17 @@
 body {
   margin: 2em 2em 4em;
   max-width: 700px;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: rgb(23, 28, 28);
 }
 
 h1 {
-  font: 700 3em 'Roboto Condensed', sans-serif;
+  font: 700 1em;
 }
 
 h2 {
-  margin-top: 2em;
-  font: 400 1.5em 'Roboto Condensed', sans-serif;
+  margin-top: 1em;
+  font: 400 1em;
   color: blue;
 }
 
@@ -34,13 +34,34 @@ a:focus {
 }
 
 /* Main Styles */
+.current-position {
+  width: 100%;
+}
+
+.job {
+  display: inline-flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.job strong {
+  width: 35%;
+}
+
+.position {
+  display: inline-flex;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
 ul li {
   margin-bottom: 0.75rem;
 }
 
 header h1 {
   margin-bottom: 0.5rem;
-  text-transform: uppercase;
 }
 
 footer {
@@ -51,7 +72,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  font: 1.5em 'Roboto Condensed', sans-serif;
+  font: 1em;
 }
 
 .contact-item {
@@ -77,7 +98,7 @@ footer {
   right: 1em;
   padding: 0.75rem;
 
-  font: 400 0.8em 'Roboto Condensed', sans-serif;
+  font: 400 0.8em;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: #fafafa;
