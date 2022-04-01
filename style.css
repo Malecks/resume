@@ -1,162 +1,170 @@
 /* Base Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  margin: 2em 2em 4em;
-  max-width: 700px;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
   color: rgb(23, 28, 28);
+  max-width: 1200px;
+  margin: auto;
+}
+
+#wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 4em 2em;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+header > * {
+  margin-bottom: 0.25em;
+}
+
+main {
+  max-width: 650px;
 }
 
 h1 {
-  font: 700 3em 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.25em;
 }
 
-h2 {
-  margin-top: 2em;
-  font: 400 1.5em 'Roboto Condensed', sans-serif;
-  color: blue;
+#intro {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+  padding: 0em 1.5em;
+}
+
+.contact {
+  font-weight: 600;
+  margin: 1.5em 0em 3em;
 }
 
 /* Link Styles */
 a {
-  font-weight: 700;
-  color: rgb(23, 28, 28);
+  color: blue;
   text-decoration: none;
-  box-shadow: inset 0 -0.4em rgb(255, 255, 0, 0.85);
 }
 
 a:hover {
-  box-shadow: inset 0em 1.4em rgba(255, 255, 0, 0.85);
+  text-decoration: underline;
 }
 
-a:focus {
-  box-shadow: inset 0em 1.4em rgba(255, 255, 0, 0.85);
-  border: 1px solid lightgrey;
+/* Job & Position Styles */
+.position-section {
+  padding: 1.5em;
+  border-radius: .5em;
+  margin-bottom: 1em;
+  background-color: #fff;
+  filter:  drop-shadow(2px 1px 15px #052B430D)
 }
 
-/* Main Styles */
+.position-section :last-child {
+  margin-bottom: 0;
+}
+
+.job {
+  display: flex;
+  align-items: flex-start;
+  width: auto;
+  margin-bottom: 2em;
+}
+
+.job strong {
+  width: 50%;
+  height: auto;
+  font-weight: 600;
+}
+
+.position {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.position > * {
+  flex-shrink: 0;
+}
+
+.position :first-child {
+  margin-right: .5em;
+}
+
+.position :last-child {
+  margin-left: .5em;
+}
+
+.position em {
+  color: #BBB;
+}
+
+.position-separator {
+  flex-shrink: 1;
+  align-self: center;
+  width: 100%;
+  border-bottom: 1px dashed #DDD;
+}
+
+ul {
+  width: 100%;
+}
+
 ul li {
   margin-bottom: 0.75rem;
 }
 
-header h1 {
-  margin-bottom: 0.5rem;
-  text-transform: uppercase;
-}
-
-footer {
-  display: none;
-}
-
-.contact, .print-contact {
+/* Footer & Small */
+small {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font: 1.5em 'Roboto Condensed', sans-serif;
+  flex-wrap: wrap;
+  margin-left: 1.5em;
 }
 
-.contact-item {
-  margin-bottom: 0.35em;
-  font-weight: 700;
-  display: inline;
-}
-
-.current-position {
-  margin-bottom: 2rem;
-}
-
-.print-contact {
-  display: none;
-}
-
-.print-button {
-  display: flex;
-  align-items: center;
-
-  position: fixed;
-  bottom: 1em;
-  right: 1em;
-  padding: 0.75rem;
-
-  font: 400 0.8em 'Roboto Condensed', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #fafafa;
-
-  background-color: rgb(23, 28, 28);
-  border-radius: 2px;
-  border-width: 0;
-  box-shadow: -3px -2px 7px rgba(0, 0, 0, 0.25);
-
-  transition: .125s ease-in;
-}
-
-.print-button:hover {
-  color: #93979e;
-  box-shadow: 5px 5px 0px rgba(255, 255, 0, 0.85);
-  transform: translate(-3px, -3px);
-}
-
-.print-button svg {
-  margin-right: 0.35rem;
-  width: 1.25rem;
-  height: 1.25rem;
-
-  fill: #fafafa;
-  transition: .125s ease-in;
-}
-
-.print-button:hover svg {
-  fill: #93979e;
+small > * {
+  margin-right: 1em;
+  color: #BBB;
 }
 
 /* Media Queries */
-
-/* Contact Nav Break */
-@media (min-width: 536px) {
-  body {
-    margin: 2rem;
+@media (max-width: 769px) {
+  #wrapper {
+    flex-direction: column;
+    margin: 2em 1em;
   }
 
-  footer {
-    display: block;
-    padding-top: 1em;
-    margin-bottom: 4rem;
-  }
-
-  .contact {
-    flex-direction: row;
-  }
-
-  .contact-item {
-    margin: 0 0.5em 0 0;
+  header {
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
   }
 }
 
-/* Desktop */
-@media (min-width: 769px) {
-  body {
-    margin: 3rem auto;
-    width: 80%;
+@media (max-width: 600px) {
+  .job {
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
-@media print {
-  html {
-    font-size: 10px;
+@media (max-width: 375px) {
+  .position {
+    flex-direction: column;
   }
 
-  body {
-    margin: 3rem auto;
-    width: 75%;
-    max-width: 850px;
-  }
-
-  .no-print {
+  .position-separator {
     display: none;
   }
 
-  a {
-    box-shadow: none;
-    font-weight: 400;
+  .position :last-child {
+    margin: 0px;
   }
 }
