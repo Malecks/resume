@@ -133,7 +133,6 @@ small {
 
 small > * {
   margin-right: 1em;
-  color: #BBB;
 }
 
 /* Media Queries */
@@ -167,5 +166,20 @@ small > * {
 
   .position :last-child {
     margin: 0px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fafafa;
+    background-color: #000;
+  }
+
+  a {
+    color: #0084ff;
+  }
+
+  .position-section {
+    background-color: #0f0f0f;
   }
 }
