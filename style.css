@@ -171,7 +171,7 @@ small > * {
 
 @media (prefers-color-scheme: dark) {
   body {
-    color: #fafafa;
+    color: #bec9cf;
     background-color: #000;
   }
 
@@ -180,6 +180,6 @@ small > * {
   }
 
   .position-section {
-    background-color: #0f0f0f;
+    background-color: #050b13;
   }
 }
