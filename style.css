@@ -186,11 +186,11 @@ small > * {
 
   .position-section {
     background-color: #0c0c0f;
+    transition: all ease 0.3s;
   }
 
   .position-section:hover {
     transform: scale(1.01);
-    transition: all ease 0.3s;
     color: #eee;
   }
 
