@@ -40,7 +40,7 @@ h1 {
 }
 
 #intro {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   line-height: 1.5em;
   padding: 0em 1.5em;
 }
@@ -101,14 +101,6 @@ a:hover {
   flex-shrink: 0;
 }
 
-.position :first-child {
-  margin-right: .5em;
-}
-
-.position :last-child {
-  margin-left: .5em;
-}
-
 .position em {
   color: #BBB;
   font-style: normal;
@@ -127,6 +119,18 @@ ul {
 
 ul li {
   margin-bottom: 0.75rem;
+}
+
+.position-details {
+  font-size: small;
+  line-height: 1.5;
+  margin-left: 2em;
+  width: calc(100% - 2em);
+}
+
+.position-details ul {
+  padding-top: 0.5em;
+  margin-left: 1em;
 }
 
 /* Footer & Small */
