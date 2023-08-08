@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 3.5em 2em 0em;
+  margin: 3.5em 2em 1em;
 }
 
 header {
@@ -62,6 +62,9 @@ a:hover {
 
 /* Job & Position Styles */
 .position-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
   padding: 1.5em;
   border-radius: .5em;
   margin-bottom: 1em;
@@ -86,11 +89,11 @@ a:hover {
   display: flex;
   align-items: flex-start;
   width: auto;
-  margin-bottom: 2em;
 }
 
 .job strong {
-  width: 50%;
+  flex-shrink: 0;
+  padding-right: .75em;
   height: auto;
   font-weight: 600;
 }
@@ -115,26 +118,22 @@ a:hover {
   align-self: center;
   width: 100%;
   border-bottom: 1px dashed #EEE;
+  margin: 0 .75em;
 }
 
 ul {
-  width: 100%;
-}
-
-ul li {
-  margin-bottom: 0.75rem;
-}
-
-.position-details {
-  font-size: small;
   line-height: 1.5;
+  margin: 1em 0;
   margin-left: 2em;
   width: calc(100% - 2em);
 }
 
-.position-details ul {
-  padding-top: 0.5em;
-  margin-left: 1em;
+ul li {
+  margin-bottom: 1em;
+}
+
+.position-details {
+  font-size: small;
 }
 
 /* Footer & Small */
