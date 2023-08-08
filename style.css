@@ -64,10 +64,10 @@ a:hover {
 .position-section {
   display: flex;
   flex-direction: column;
-  gap: 2em;
-  padding: 1.5em;
-  border-radius: .5em;
-  margin-bottom: 1em;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
   background-color: #fff;
   box-shadow: 
     0px 2px 48px rgba(238, 238, 238, 0.2),
@@ -94,7 +94,6 @@ a:hover {
 .job strong {
   flex-shrink: 0;
   padding-right: .75em;
-  height: auto;
   font-weight: 600;
 }
 
@@ -123,9 +122,9 @@ a:hover {
 
 ul {
   line-height: 1.5;
-  margin: 1em 0;
-  margin-left: 2em;
-  width: calc(100% - 2em);
+  margin: 1rem 0;
+  margin-left: 2rem;
+  width: calc(100% - 2rem);
 }
 
 ul li {
@@ -140,7 +139,7 @@ ul li {
 small {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 1.5em;
+  margin-left: 1.5rem;
 }
 
 small > * {
@@ -151,23 +150,21 @@ small > * {
 @media (max-width: 769px) {
   #wrapper {
     flex-direction: column;
-    margin: 2em 1em;
+    margin: 2rem 1rem;
   }
 
   header {
-    margin-left: 1.5em;
-    margin-bottom: 1.5em;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .job {
     flex-direction: column;
     flex-wrap: wrap;
   }
-}
 
-@media (max-width: 375px) {
   .position {
     flex-direction: column;
   }
@@ -177,7 +174,7 @@ small > * {
   }
 
   .position :last-child {
-    margin: 0px;
+    margin: 0;
   }
 }
 
