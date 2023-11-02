@@ -1,4 +1,6 @@
-function Resume() {
+import Skills from "./skills"
+
+const Resume = () => {
     return (
         <section className="resume">
             <Position company="Shopify" title="Sr. Product Designer" date="2021-Present"/>
@@ -17,7 +19,7 @@ function Resume() {
     )
 }
 
-function Position({company, title, date}) {
+const Position = ({company, title, date}) => {
     return (
         <div className="position">
             <div className="position-header">
