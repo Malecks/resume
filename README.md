@@ -3,5 +3,5 @@ My name is Alex. I'm a Senior Product Designer at <a href="http://shopify.com">S
 
 
 ## This Project
-This project is a digital resume, written with HTML and CSS, and hosted on GitHub Pages. You can view it here:
+This project is a digital resume, written with React, and hosted on GitHub Pages. You can view it here:
 ### https://malecks.com
