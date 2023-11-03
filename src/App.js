@@ -2,18 +2,18 @@ import './App.css';
 import Header from './components/header';
 import Contact from './components/contact';
 import Bio from './components/bio';
-import Nav from './components/nav';
+// import Nav from './components/nav';
 import Footer from './components/footer';
-import About from './components/about';
+// import About from './components/about';
 import Resume from './components/resume';
 import Skills from './components/skills';
 
 import React from "react";
-import {
-  HashRouter as Router,
-  Route,
-  Routes
-} from "react-router-dom";
+// import {
+//   HashRouter as Router,
+//   Route,
+//   Routes
+// } from "react-router-dom";
 
 function App() {
   return (

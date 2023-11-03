@@ -1,5 +1,3 @@
-import Skills from "./skills"
-
 const Resume = () => {
     return (
         <section className="resume">
