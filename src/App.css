@@ -1,6 +1,39 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1B2120;
+    --text-color: #BDB1A0;
+    --interpunct-color: rgba(189, 177, 160, 0.25);
+    --hr-color: #BDB1A0;
+  
+    --skill-text-color: #CA8500;
+    --skill-bg-color-1: #1B160E;
+    --skill-bg-color-2: #1B160E;
+    --skill-text-highlight-color: #C5D348;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF;
+    --text-color: #000;
+    --interpunct-color: rgba(0, 0, 0, 0.25);
+    --hr-color: #000;
+  
+    --skill-text-color: #555555;
+    --skill-bg-color-1: #E1E1E1;
+    --skill-bg-color-2: #F5F5F5;
+    --skill-text-highlight-color: #000;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
 }
 
 div, p, a, h3, h4, h5, h6 {
@@ -16,7 +49,11 @@ h1, h2, h3 {
 
 
 a {
-  color: #BCD2B4;
+  color:var(--text-color);
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .hidden {
@@ -42,15 +79,23 @@ a {
 }
 
 hr {
-  border: 0.5px solid black;
+  border: 0.5px solid var(--hr-color);
   width: 100%;
 }
 
 /* Header */
 .app-header {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;
+}
+
+.app-header img {
+  height: 110px;
+  width: 110px;
+  border-radius: 20%;
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* Nav */
@@ -64,19 +109,19 @@ hr {
 
 
 .nav a {
-  color: black;
+  color: var(--text-color);
   opacity: 0.5;
   text-decoration: none;
 }
 
 .nav a:hover {
-  color: black;
+  color: var(--text-color);
   opacity: 1;
   text-decoration: underline;
 }
 
 .nav .active {
-  color: black;
+  color: var(--text-color);
   opacity: 1;
 }
 
@@ -107,6 +152,10 @@ hr {
   font-style: normal;
   font-weight: 500;
   line-height: 2rem;
+}
+
+.bio a {
+  font-family: 'IBM Plex Serif', serif;
 }
 
 /* About */
@@ -160,7 +209,7 @@ hr {
 .interpunct {
   display: flex;
   flex: 1;
-  border: 1px dashed #BCD2B440;
+  border: 1px dashed var(--interpunct-color);
 }
 
 .spacer {
@@ -183,16 +232,16 @@ hr {
   gap: 0.25rem;
 
   border-radius: 0.25rem;
-  background: #251919;
-
-  color: #A07114;
-  text-shadow: 0px 0.5px 1px rgba(36, 39, 46, 0.10);
+  background: linear-gradient(105deg, var(--skill-bg-color-1) 0%, var(--skill-bg-color-2) 60%);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.10);
+  
+  color: var(--skill-text-color);
   font-family: IBM Plex Mono;
   font-size: 1rem;
 }
 
 .skill:hover {
-  color: #B8C260;
+  color: var(--skill-text-highlight-color);
   cursor: crosshair;
 }
 

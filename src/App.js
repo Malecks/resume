@@ -20,6 +20,7 @@ function App() {
     <div className="App">
       <div className='content'>
           <Header />
+          <hr />
           <Contact />
           <hr />
           <Bio />
