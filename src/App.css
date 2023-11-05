@@ -293,4 +293,9 @@ footer :first-child {
   .about, .projects {
     padding: 0;
   }
+
+  .app-header img {
+    height: 80px;
+    width: 80px;
+  }
 }
