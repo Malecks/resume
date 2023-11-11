@@ -25,7 +25,6 @@ const ServiceBookingProject = () => {
           In April 2021, I undertook a project with League to design a 'Service Booking' feature in collaboration with Loblaw Companies Ltd., Maple, and Lifemark. The goal was to enable users to seamlessly book various health services offered by Maple and Lifemark through the PC Health mobile app.
         </p>
         <img src={cover} alt="Service booking" />
-        <img src={img01} alt="Service booking" />
       </section>
 
       <section>
@@ -54,7 +53,12 @@ const ServiceBookingProject = () => {
           <li>Contributed to PC Health's marketing campaigns through improved service offerings.</li>
           <li>Identified areas for design enhancement post-launch, ensuring continuous improvement.</li>
         </ul>
-        <img src={time01} alt="Service booking" />
+        <div className='image-grid'>
+          <img src={img01} alt="Service booking" />
+          <img src={img02} alt="Service booking" />
+          <img src={time01} alt="Service booking" />
+          <img src={time02} alt="Service booking" />
+        </div>
       </section>
 
       <section>
@@ -64,7 +68,6 @@ const ServiceBookingProject = () => {
           <li>Recommended establishing clear stakeholder sign-off and a change log for smoother development.</li>
           <li>Highlighted the importance of alignment between partners and consistent requirement delivery.</li>
         </ul>
-        <img src={img02} alt="Service booking" />
       </section>
     </div>
   );
