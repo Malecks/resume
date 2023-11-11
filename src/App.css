@@ -317,4 +317,9 @@ footer :first-child {
     height: 80px;
     width: 80px;
   }
+
+  .nav ul {
+    font-size: 1.2em;
+    gap: 2rem;
+  }
 }
