@@ -9,6 +9,8 @@ import Resume from './components/resume';
 
 import Projects from './components/projects';
 import PaletteCamProject from './projects/palette-cam/PaletteCam';
+import NudgeAnalyticsDashboardProject from './projects/nudge-analytics-dashboard/nudgeAnalytics';
+
 
 import React from "react";
 import {
@@ -32,6 +34,7 @@ function App() {
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="projects/palette-cam" element={<PaletteCamProject />} />
+                <Route path="projects/nudge-analytics-dashboard" element={<NudgeAnalyticsDashboardProject />} />
               </Routes>
           </Router>
           <hr />

@@ -1,18 +1,29 @@
+import img01 from './Analytics01.png'
+import img02 from './Analytics02.png'
+// import img03 from './Analytics03.png'
+import img04 from './Analytics04.png'
+import img05 from './Analytics05.png'
+import img06 from './Analytics06.png'
+import img07 from './Analytics07.png'
+import img08 from './Analytics08.png'
+// import img09 from './Analytics09.png'
+
 const NudgeAnalyticsDashboardProject = () => {
     return (
-      <div>
-        <img src="Analytics01.png" alt="Analytics cover" />
+      <div className="project">
   
-        <blockquote>
-          Revamping the Nudge Analytics Dashboard
-        </blockquote>
+        <header>
+          <h2>Analytics Dashboard</h2>
+          <h4>Revamping the Nudge analytics dashboard for speed and clarity</h4>
+        </header>
   
         <section>
           <h3>Project Overview</h3>
           <p>
             The Nudge Analytics Dashboard project sought to transform the user experience and effectiveness of analytics within the Nudge CMS platform. The aim was to provide clearer, actionable insights to program managers and CS teams by reimagining the existing dashboard layout and addressing performance and usability issues.
           </p>
-          <img src="Analytics05.png" alt="Analytics" />
+          <img src={img01} alt="Analytics cover" />
+          <img src={img05} alt="Analytics" />
         </section>
   
         <section>
@@ -22,8 +33,8 @@ const NudgeAnalyticsDashboardProject = () => {
             <li>Complex and opaque metrics leading to confusion.</li>
             <li>Low discoverability of relevant dashboards.</li>
           </ol>
-          <img src="Analytics02.png" alt="Previous dashboard" />
-          <img src="Analytics04.png" alt="Previous dashboard" />
+          <img src={img02} alt="Previous dashboard" />
+          <img src={img04} alt="Previous dashboard" />
         </section>
   
         <section>
@@ -42,7 +53,7 @@ const NudgeAnalyticsDashboardProject = () => {
               <strong>Accessible Exports</strong>: Provided upfront access to data tables for exporting, catering to unique or one-time analysis requests.
             </li>
           </ul>
-          <img src="Analytics08.png" alt="Analytics" />
+          <img src={img08} alt="Analytics" />
         </section>
   
         <section>
@@ -60,7 +71,7 @@ const NudgeAnalyticsDashboardProject = () => {
             <li>Developed an intuitive dashboard layout, improving user access and discoverability.</li>
             <li>Emphasized user-centric hierarchy for insights, enhancing relevance and actionable data.</li>
           </ul>
-          <img src="Analytics07.png" alt="Analytics" />
+          <img src={img07} alt="Analytics" />
         </section>
   
         <section>
@@ -68,7 +79,7 @@ const NudgeAnalyticsDashboardProject = () => {
           <p>
             The revamped Nudge Analytics Dashboard promises to provide program managers and CS teams with a more seamless, insightful experience. By prioritizing usability and performance, this redesign is poised to enhance decision-making and optimize operations, aligning with Nudge's commitment to empower users with data-driven insights.
           </p>
-          <img src="Analytics06.png" alt="Analytics" />
+          <img src={img06} alt="Analytics" />
         </section>
       </div>
     );

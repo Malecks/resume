@@ -8,7 +8,7 @@
 
 .project-item {
     display: flex;
-    flex: 1;
+    flex-direction: row;
     padding: 1rem;
     align-items: center;
     gap: 1.5rem;
