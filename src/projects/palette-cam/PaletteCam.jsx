@@ -7,13 +7,14 @@ import img05 from './PaletteCamFeatured.png'
 const PaletteCamProject = () => {
   return (
     <div className='project'>
-      <img src={ img01 } alt="Palette Cam" width={'800px'}/>
-      <h2>
-        Palette Cam - iOS App
-      </h2>
-      <h4>
-        Over 300,000 downloads, and a 4.6 rating on the iOS App store
-      </h4>
+      <header>
+        <h2>
+          Palette Cam - iOS App
+        </h2>
+        <h4>
+          Over 300,000 downloads, and a 4.6 rating on the iOS App store
+        </h4>
+      </header>
 
       <section>
         <h3>tldr;</h3>
@@ -33,18 +34,19 @@ const PaletteCamProject = () => {
         </ul>
         <div>
           <blockquote>
-            Love it ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+            <h4>Love it ⭐️ ⭐️ ⭐️ ⭐️ ⭐️</h4>
             <p>This app is great to get colour schemes from photos that I have taken and incorporate into my own artwork. — cor.rob</p>
           </blockquote>
           <blockquote>
-            Prettiest app I've ever used ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+            <h4>Prettiest app I've ever used ⭐️ ⭐️ ⭐️ ⭐️ ⭐️</h4>
             <p>I love the design of this app. It's so easy to use and great for inspiration! — ColorGal95</p>
           </blockquote>
           <blockquote>
-            Great app. Simple to use. ⭐️ ⭐️ ⭐️ ⭐️ ⭐️
+            <h4>Great app. Simple to use. ⭐️ ⭐️ ⭐️ ⭐️ ⭐️</h4>
             <p>Great little colour sampling app. Simple, quick interface... — Pulpoco</p>
           </blockquote>
         </div>
+        <img src={ img01 } alt="Palette Cam" width={'800px'}/>
       </section>
 
       <section>

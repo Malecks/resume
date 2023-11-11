@@ -1,10 +1,11 @@
 import './App.css';
+import './projects/Projects.css'
+
 import Header from './components/header';
 import Nav from './components/nav';
 import Footer from './components/footer';
 import About from './components/about';
 import Resume from './components/resume';
-import Skills from './components/skills';
 
 import Projects from './components/projects';
 import PaletteCamProject from './projects/palette-cam/PaletteCam';
@@ -33,8 +34,6 @@ function App() {
                 <Route path="projects/palette-cam" element={<PaletteCamProject />} />
               </Routes>
           </Router>
-          <hr />
-          <Skills />
           <hr />
           <Footer />
       </div>

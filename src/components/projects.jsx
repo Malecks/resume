@@ -2,11 +2,9 @@ import { Link } from "react-router-dom"
 
 const Projects = () => {
     return (
-        <div className="projects-list">
-            <ul>
-                <li><Link to={"palette-cam"}>Palette Cam</Link></li>
-            </ul>
-        </div>
+        <ul className="projects-list">
+            <li className="project-item"><Link to={"palette-cam"}>Palette Cam</Link></li>
+        </ul>
     )
 }
 
