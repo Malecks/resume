@@ -41,7 +41,7 @@ div, p, a, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Mono', serif;
   font-weight: 400;
   font-style: normal;
   line-height: normal;
@@ -91,6 +91,14 @@ hr {
   align-self: stretch;
 }
 
+.app-header a {
+  text-decoration: none;
+}
+
+.app-header a:hover {
+  text-decoration: underline;
+}
+
 .app-header img {
   height: 110px;
   width: 110px;
@@ -103,7 +111,7 @@ hr {
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  font-size: 1.75em;
+  font-size: 1.5em;
   list-style: none;
 }
 
@@ -112,6 +120,7 @@ hr {
   color: var(--text-color);
   opacity: 0.5;
   text-decoration: none;
+  font-family: IBM Plex Mono;
 }
 
 .nav a:hover {
@@ -163,13 +172,11 @@ hr {
   display: flex;
   flex-direction: column;
   padding: 0rem 3rem;
-  align-items: flex-start;
-  gap: .85em;
   align-self: stretch;
-  font-size: 1.3em;
+  gap: 1.5rem;
+  font-size: 1.125rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: 1.65em; /* 166.667% */
+  line-height: 2rem; /* 177.778% */
 }
 
 /* Resume */
@@ -214,6 +221,12 @@ hr {
 
 .spacer {
   width: 1.5rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .skills-group {
