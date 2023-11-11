@@ -37,7 +37,7 @@ const ServiceBookingProject = () => {
           <li>Played a pivotal role in achieving project milestones within an aggressive 6-month timeline.</li>
           <li>Facilitated productive communication and consensus among cross-functional teams.</li>
         </ul>
-        <div>
+        <div className='image-grid'>
           <img src={speedy01} alt="Service booking" />
           <img src={speedy02} alt="Service booking" />
           <img src={speedy03} alt="Service booking" />
