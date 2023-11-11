@@ -1,3 +1,17 @@
+@media (prefers-color-scheme: dark) {
+    .project-item {
+      --list-item-color: #202726;
+      --list-item-color-hover: #1E2F2C;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .project-item {
+        --list-item-color: #f9f9f9;
+        --list-item-color-hover: #F5f5f5;
+    }
+  }
+
 .projects-list {
     display: flex;
     flex-direction: row;
@@ -19,11 +33,11 @@
     width: calc(50% - 2.5rem);
     text-decoration: none;
     transition: all ease 200ms;
-    background-color: #f9f9f9;
+    background-color: var(--list-item-color);
 }
 
 .project-item:hover {
-    background-color: #f5f5f5;
+    background-color: var(--list-item-color-hover);
 }
 
 .project-item:hover img {
