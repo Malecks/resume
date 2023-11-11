@@ -9,7 +9,11 @@ function About() {
           </p>
           <p>
             I like anything and everything to do with digital art and creating interactive experiences, and I find my best work happens when I'm sweating the details on a prototype for a big new idea or future thinking project. I care immensely and have a great eye for each pixel, animation, haptic, and sound that comes together to create a special moment for people. I’m often experimenting with new technologies and software, and have a laundry list of side-projects from React websites to Mobile apps and even a Crokinole game created in Unity.
+          </p>
+          <p>
             In my role as a product designer, I'm often thinking of the forest - leading large projects and multi-discipline teams, working with engineers and marketing alike, and I always consider the business and product perspectives. But I live in the trees and understand the inherent value in shipping projects with an immaculate level of polish, and a delightful experience.
+          </p>
+          <p>
             I also literally live in the trees, in Vancouver, B.C. where I spend my weekends skiing, mountain biking, or hiking with my dog Billy.
           </p>
           <p>
