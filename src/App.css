@@ -70,6 +70,7 @@ a:hover {
 .content {
   display: flex;
   flex-direction: column;
+  flex: 1;
   align-self: center;
   align-items: flex-start;
   max-width: 50rem;
@@ -171,9 +172,11 @@ hr {
 .about {
   display: flex;
   flex-direction: column;
-  padding: 0rem 3rem;
+  flex: 1;
   align-self: stretch;
   gap: 1.5rem;
+  padding: 0rem 3rem;
+
   font-size: 1.125rem;
   font-style: normal;
   line-height: 2rem; /* 177.778% */
@@ -183,6 +186,7 @@ hr {
 .resume {
   display: flex;
   flex-direction: column;
+  flex: 1;
   gap: 4rem;
 }
 
