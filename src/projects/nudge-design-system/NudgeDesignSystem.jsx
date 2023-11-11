@@ -1,11 +1,24 @@
+import img01 from './DesignLibrary01.png'
+import img02 from './DesignLibrary02.png'
+import img03 from './DesignLibrary03.png'
+import img04 from './DesignLibrary04.png'
+import img05 from './DesignLibrary05.png'
+import img06 from './DesignLibrary06.png'
+import img07 from './DesignLibrary07.png'
+import img08 from './DesignLibrary08.png'
+import img09 from './DesignLibrary09.png'
+import img10 from './DesignLibrary10.png'
+import img11 from './DesignLibrary11.png'
+import img12 from './DesignLibrary12.png'
+
+
 const NudgeDesignSystemProject = () => {
   return (
-    <div>
-      <img src="DesignLibrary08.png" alt="Design Library" />
-
-      <blockquote>
-        Building (and re-building) a comprehensive design system and library
-      </blockquote>
+    <div className="project">
+      <header>
+        <h2>Design Library</h2>
+        <h4>Building (and re-building) a comprehensive design system and library</h4>
+      </header>
 
       <section>
         <h3>Project background</h3>
@@ -20,7 +33,8 @@ const NudgeDesignSystemProject = () => {
           <li>Ensure consistency across new and existing features.</li>
           <li>Have adaptable and easy to produce mockups for our Marketing, CS, and Sales teams.</li>
         </ul>
-        <img src="DesignLibrary11.png" alt="Design Library" />
+        <img src={img08} alt="Design Library" />
+        <img src={img11} alt="Design Library" />
       </section>
 
       <section>
@@ -41,12 +55,12 @@ const NudgeDesignSystemProject = () => {
           <li>The 'Screens' library could be neatly organized by feature, allowing for quick export of product mocks.</li>
         </ul>
         <div>
-          <img src="DesignLibrary01.png" alt="Design Library" />
-          <img src="DesignLibrary02.png" alt="Design Library" />
+          <img src={img01} alt="Design Library" />
+          <img src={img02} alt="Design Library" />
         </div>
         <div>
-          <img src="DesignLibrary03.png" alt="Design Library" />
-          <img src="DesignLibrary04.png" alt="Design Library" />
+          <img src={img03} alt="Design Library" />
+          <img src={img04} alt="Design Library" />
         </div>
       </section>
 
@@ -64,7 +78,7 @@ const NudgeDesignSystemProject = () => {
         <p>
           Finally, I was able to use our libraries to create a new type of resource for white-labeling product mockups. By leveraging our usage of colour styles in the library, I was able to create a Sketch document that will cascade changes to those colour styles through every feature mock in a way that replicates our in-app feature for white-labeling.
         </p>
-        <img src="DesignLibrary09.png" alt="Design Library" />
+        <img src={img09} alt="Design Library" />
       </section>
 
       <section>
@@ -82,12 +96,12 @@ const NudgeDesignSystemProject = () => {
           After a lot of research, and a couple deep breaths…I decided it was time to transition the team to Figma. As I saw it, Figma would have a few key advantages over Sketch.
         </p>
         <div>
-          <img src="DesignLibrary05.png" alt="Design Library" />
-          <img src="DesignLibrary06.png" alt="Design Library" />
+          <img src={img05} alt="Design Library" />
+          <img src={img06} alt="Design Library" />
         </div>
         <div>
-          <img src="DesignLibrary07.png" alt="Design Library" />
-          <img src="DesignLibrary12.png" alt="Design Library" />
+          <img src={img07} alt="Design Library" />
+          <img src={img12} alt="Design Library" />
         </div>
         <ul>
           <li>
@@ -107,7 +121,7 @@ const NudgeDesignSystemProject = () => {
       <p>
         I'm happy to say that the switch to Figma has been a huge success. Since the transition, I've been able to successfully recreate and improve upon the design system and extend it to our web-based CMS. We have even fewer mistakes with product mocks, and many more teammates using Figma than we ever had using Sketch. On top of that, the use of comments and other collaboration tools have transformed the process not just for providing mocks to CS and marketing, but our product process as well. We've been able to invite developers into Figma to leave feedback on designs, have PMs suggest updates, and marketing team members suggest copy edits. With Figma's introduction of Auto-layout and Variants, I've been able to further organize and update the components to become increasingly powerful and flexible.
       </p>
-      <img src="DesignLibrary10.png" alt="Design Library" />
+      <img src={img10} alt="Design Library" />
     </div>
   );
 };

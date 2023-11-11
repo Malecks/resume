@@ -1,18 +1,31 @@
+import cover from './ServiceBookingCover.png'
+import img01 from './ServiceBooking1.png'
+import img02 from './ServiceBooking2.png'
+import diagram from './ServiceBookingDiagram.png'
+import speedy01 from './SpeedyEights1.png'
+import speedy02 from './SpeedyEights2.png'
+import speedy03 from './SpeedyEights3.png'
+import speedy04 from './SpeedyEights4.png'
+import research from './CompetitorResearch.png'
+import time01 from './Time1.png'
+import time02 from './Time2.png'
+
 const ServiceBookingProject = () => {
   return (
-    <div>
-      <img src="ServiceBookingCover.png" alt="Service booking" />
+    <div className='project'>
 
-      <blockquote>
-        Designing a health care service booking feature at League
-      </blockquote>
+      <header>
+        <h2>Service Booking</h2>
+        <h4>Designing a health care service booking feature at League</h4>
+      </header>
 
       <section>
         <h3>My Role</h3>
         <p>
           In April 2021, I undertook a project with League to design a 'Service Booking' feature in collaboration with Loblaw Companies Ltd., Maple, and Lifemark. The goal was to enable users to seamlessly book various health services offered by Maple and Lifemark through the PC Health mobile app.
         </p>
-        <img src="ServiceBooking1.png" alt="Service booking" />
+        <img src={cover} alt="Service booking" />
+        <img src={img01} alt="Service booking" />
       </section>
 
       <section>
@@ -25,12 +38,12 @@ const ServiceBookingProject = () => {
           <li>Facilitated productive communication and consensus among cross-functional teams.</li>
         </ul>
         <div>
-          <img src="SpeedyEights1.png" alt="Service booking" />
-          <img src="SpeedyEights2.png" alt="Service booking" />
-          <img src="SpeedyEights3.png" alt="Service booking" />
-          <img src="SpeedyEights4.png" alt="Service booking" />
+          <img src={speedy01} alt="Service booking" />
+          <img src={speedy02} alt="Service booking" />
+          <img src={speedy03} alt="Service booking" />
+          <img src={speedy04} alt="Service booking" />
         </div>
-        <img src="CompetitorResearch.png" alt="Service booking" />
+        <img src={research} alt="Service booking" />
       </section>
 
       <section>
@@ -41,7 +54,7 @@ const ServiceBookingProject = () => {
           <li>Contributed to PC Health's marketing campaigns through improved service offerings.</li>
           <li>Identified areas for design enhancement post-launch, ensuring continuous improvement.</li>
         </ul>
-        <img src="Time1.png" alt="Service booking" />
+        <img src={time01} alt="Service booking" />
       </section>
 
       <section>
@@ -51,7 +64,7 @@ const ServiceBookingProject = () => {
           <li>Recommended establishing clear stakeholder sign-off and a change log for smoother development.</li>
           <li>Highlighted the importance of alignment between partners and consistent requirement delivery.</li>
         </ul>
-        <img src="ServiceBooking2.png" alt="Service booking" />
+        <img src={img02} alt="Service booking" />
       </section>
     </div>
   );

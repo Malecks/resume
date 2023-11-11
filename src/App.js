@@ -1,10 +1,18 @@
 import './App.css';
+import './projects/Projects.css'
+
 import Header from './components/header';
 import Nav from './components/nav';
 import Footer from './components/footer';
 import About from './components/about';
 import Resume from './components/resume';
-import Skills from './components/skills';
+
+import Projects from './components/projects';
+import ServiceBookingProject from './projects/service-booking/ServiceBooking';
+import PaletteCamProject from './projects/palette-cam/PaletteCam';
+import NudgeAnalyticsDashboardProject from './projects/nudge-analytics-dashboard/nudgeAnalytics';
+import NudgeDesignSystemProject from './projects/nudge-design-system/NudgeDesignSystem';
+
 
 import React from "react";
 import {
@@ -12,6 +20,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -25,10 +34,13 @@ function App() {
               <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="projects/league-service-booking" element={<ServiceBookingProject />} />
+                <Route path="projects/palette-cam" element={<PaletteCamProject />} />
+                <Route path="projects/nudge-analytics-dashboard" element={<NudgeAnalyticsDashboardProject />} />
+                <Route path="projects/nudge-design-system" element={<NudgeDesignSystemProject />} />
               </Routes>
           </Router>
-          <hr />
-          <Skills />
           <hr />
           <Footer />
       </div>

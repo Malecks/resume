@@ -47,7 +47,6 @@ h1, h2, h3 {
   line-height: normal;
 }
 
-
 a {
   color:var(--text-color);
 }
@@ -71,9 +70,11 @@ a:hover {
 .content {
   display: flex;
   flex-direction: column;
+  flex: 1;
   align-self: center;
   align-items: flex-start;
   max-width: 50rem;
+  width: calc(100% - 2rem);
   margin: 4rem 1rem;
   gap: 4rem;
 }
@@ -171,9 +172,11 @@ hr {
 .about {
   display: flex;
   flex-direction: column;
-  padding: 0rem 3rem;
+  flex: 1;
   align-self: stretch;
   gap: 1.5rem;
+  padding: 0rem 3rem;
+
   font-size: 1.125rem;
   font-style: normal;
   line-height: 2rem; /* 177.778% */
@@ -181,6 +184,13 @@ hr {
 
 /* Resume */
 .resume {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 4rem;
+}
+
+.positions {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -310,5 +320,10 @@ footer :first-child {
   .app-header img {
     height: 80px;
     width: 80px;
+  }
+
+  .nav ul {
+    font-size: 1.2em;
+    gap: 2rem;
   }
 }
