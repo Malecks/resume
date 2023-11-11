@@ -13,9 +13,9 @@ function Nav() {
             <li>
                 <NavLink to='/resume' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Resumé</NavLink>
             </li>
-            {/* <li>
+            <li>
                 <NavLink to='/projects' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Projects</NavLink>
-            </li> */}
+            </li>
         </ul>
       </div>
     )
