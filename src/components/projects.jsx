@@ -6,7 +6,7 @@ const Projects = () => {
             <ProjectItem name="Service Booking" url="league-service-booking" desc="League"/>
             <ProjectItem name="Palette Cam" url="palette-cam" desc="iOS App"/>
             <ProjectItem name="Analytics Dashboard" url="nudge-analytics-dashboard" desc="Nudge"/>
-            <ProjectItem name="Design Library" url="nudge-design-library" desc="Nudge"/>
+            <ProjectItem name="Design System" url="nudge-design-system" desc="Nudge"/>
         </ul>
     )
 }
