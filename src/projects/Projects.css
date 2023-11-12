@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
     .project-item {
-      --list-item-color: #202726;
-      --list-item-color-hover: #1E2F2C;
+      --list-item-color: #1a1a1a;
+      --list-item-color-hover: #333;
     }
   }
   

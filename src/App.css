@@ -1,14 +1,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-color: #1B2120;
-    --text-color: #BDB1A0;
-    --interpunct-color: rgba(189, 177, 160, 0.25);
-    --hr-color: #BDB1A0;
+    --bg-color: #000;
+    --text-color: #f5f5f5;
+    --interpunct-color: #555;
+    --hr-color: #555;
   
-    --skill-text-color: #CA8500;
-    --skill-bg-color-1: #1B160E;
-    --skill-bg-color-2: #1B160E;
-    --skill-text-highlight-color: #C5D348;
+    --skill-text-color: #bfbfbf;
+    --skill-bg-color-1: #373737;
+    --skill-bg-color-2: #1c1c1c;
+    --skill-text-highlight-color: #f5f5f5;
   }
 }
 
