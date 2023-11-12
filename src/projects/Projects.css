@@ -67,6 +67,7 @@
     flex-direction: column;
     gap: 2rem;
     margin: 0 3rem;
+    line-height: 150%;
 }
 
 .project img {
@@ -123,7 +124,7 @@
 }
 
 .project li {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .project blockquote {
@@ -134,5 +135,34 @@
 @media screen and (max-width: 600px) {
     .project-item {
         width: 100%;
+    }
+
+    .project {
+        margin: 0;
+    }
+
+    .project img {
+        margin: 0;
+        width: 100%
+    }
+
+    .project img:hover {
+        scale:1.0;
+    }
+
+    .image-grid {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .image-grid:hover {
+        scale:  1.0;
+    }
+
+    .image-grid img {
+        width: 100%;
+        margin: 0
     }
 }
