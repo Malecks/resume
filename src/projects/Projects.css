@@ -32,7 +32,7 @@
     padding: 1rem;
     width: calc(50% - 2.5rem);
     text-decoration: none;
-    transition: all ease 200ms;
+    transition: all ease-out 200ms;
     background-color: var(--list-item-color);
 }
 
@@ -59,7 +59,7 @@
     border-radius: .5rem;
     box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
     object-fit: cover;
-    transition: all ease 200ms;
+    transition: all ease-out 200ms;
 }
 
 .project {
@@ -89,7 +89,6 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     margin: 1rem -2rem;
-    max-height: 600px;
     transition: all ease-out 250ms;
 }
 
@@ -106,7 +105,7 @@
     flex: 3;
     margin: 0;
     width: calc(50% - 2rem);
-    height: 250px;
+    height: 300px;
     border-radius: 1rem;
     object-fit: cover;
     transition: all ease-out 250ms;

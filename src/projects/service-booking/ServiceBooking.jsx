@@ -12,8 +12,7 @@ import time02 from './Time2.png'
 
 const ServiceBookingProject = () => {
   return (
-    <div className='project'>
-
+    <article className='project'>
       <header>
         <h2>Service Booking</h2>
         <h4>Designing a health care service booking feature at League</h4>
@@ -42,7 +41,10 @@ const ServiceBookingProject = () => {
           <img src={speedy03} alt="Service booking" />
           <img src={speedy04} alt="Service booking" />
         </div>
-        <img src={research} alt="Service booking" />
+        <caption>Speedy 8's: results from a cross-functional workshop</caption>
+        <img src={research} alt="Competitor research" />
+        <caption>Competitor research</caption>
+
       </section>
 
       <section>
@@ -59,6 +61,7 @@ const ServiceBookingProject = () => {
           <img src={time01} alt="Service booking" />
           <img src={time02} alt="Service booking" />
         </div>
+        <caption>A selection of screens from the final feature</caption>
       </section>
 
       <section>
@@ -69,7 +72,7 @@ const ServiceBookingProject = () => {
           <li>Highlighted the importance of alignment between partners and consistent requirement delivery.</li>
         </ul>
       </section>
-    </div>
+    </article>
   );
 };
 
