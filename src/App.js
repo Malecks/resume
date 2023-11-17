@@ -8,6 +8,7 @@ import About from './components/about';
 import Resume from './components/resume';
 
 import Projects from './components/projects';
+import InboxOnboardingProject from './projects/shopify-inbox-onboarding/InboxOnboarding';
 import ServiceBookingProject from './projects/service-booking/ServiceBooking';
 import PaletteCamProject from './projects/palette-cam/PaletteCam';
 import NudgeAnalyticsDashboardProject from './projects/nudge-analytics-dashboard/nudgeAnalytics';
@@ -35,6 +36,7 @@ function App() {
                 <Route path="/" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="projects/shopify-inbox-onboarding" element={<InboxOnboardingProject />} />
                 <Route path="projects/league-service-booking" element={<ServiceBookingProject />} />
                 <Route path="projects/palette-cam" element={<PaletteCamProject />} />
                 <Route path="projects/nudge-analytics-dashboard" element={<NudgeAnalyticsDashboardProject />} />
