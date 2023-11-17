@@ -167,6 +167,7 @@
 
     .project img:hover {
         scale:1.0;
+        border-radius: 2rem;
     }
 
     .image-grid {
@@ -187,5 +188,14 @@
 
     .video-wrapper {
         flex-direction: column;
+    }
+
+    .project video {
+        max-height: 450px;
+    }
+
+    .project video:hover {
+        scale: 1.0;
+        border-radius: 1rem;
     }
 }
