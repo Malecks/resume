@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 
+import ShopifyInboxThumbnail from '../projects/thumbnails/shopifyInbox.png'
 import ServiceThumbnail from '../projects/thumbnails/service.png'
 import PaletteThumbnail from '../projects/thumbnails/palette.png'
 import AnalyticsThumbnail from '../projects/thumbnails/dahsboard.png'
@@ -11,6 +12,7 @@ import NavIAThumbnail from '../projects/thumbnails/navIA.png'
 const Projects = () => {
     return (
         <ul className="projects-list">
+            <ProjectItem name="Inbox Onboarding" url="shopify-inbox-onboarding" desc="Shopify" img={ShopifyInboxThumbnail}/>
             <ProjectItem name="Service Booking" url="league-service-booking" desc="League" img={ServiceThumbnail}/>
             <ProjectItem name="Palette Cam" url="palette-cam" desc="iOS App" img={PaletteThumbnail}/>
             <ProjectItem name="Analytics Dashboard" url="nudge-analytics-dashboard" desc="Nudge" img={AnalyticsThumbnail}/>
