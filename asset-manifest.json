@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.53524c0d.css",
-    "main.js": "/static/js/main.37070115.js",
+    "main.css": "/static/css/main.b4fa3a88.css",
+    "main.js": "/static/js/main.7cd4abae.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/InboxOnboarding01_720.mov": "/static/media/InboxOnboarding01_720.8bfb1b7796ea7fa05b82.mov",
     "static/media/PaletteCam.png": "/static/media/PaletteCam.14770f46d38429906a9c.png",
+    "static/media/InboxOnboarding02_720.mov": "/static/media/InboxOnboarding02_720.087b305964ca1667c4ff.mov",
     "static/media/SpeedyEights1.png": "/static/media/SpeedyEights1.b69cfb93e95b5a85a82b.png",
     "static/media/SpeedyEights2.png": "/static/media/SpeedyEights2.60b1bdaf27e8aed31b7f.png",
     "static/media/SpeedyEights3.png": "/static/media/SpeedyEights3.4460ba2631be509fb81d.png",
@@ -13,6 +15,8 @@
     "static/media/PaletteCam3.png": "/static/media/PaletteCam3.35a7f3c0c188cdaea222.png",
     "static/media/PaletteCam4.png": "/static/media/PaletteCam4.5ce63cc1c9dea51c4ab7.png",
     "static/media/PaletteCam2.png": "/static/media/PaletteCam2.820d21b11289f10a0418.png",
+    "static/media/Inbox02.png": "/static/media/Inbox02.7ace1760a6e4fd08d5a9.png",
+    "static/media/InboxIllustration.jpg": "/static/media/InboxIllustration.b182e83b1516a63de232.jpg",
     "static/media/PaletteCamFeatured.png": "/static/media/PaletteCamFeatured.74ffa2941b3efd593b87.png",
     "static/media/DesignLibrary02.png": "/static/media/DesignLibrary02.0bdc3a27841482ca4423.png",
     "static/media/DesignLibrary01.png": "/static/media/DesignLibrary01.3dc5471be7da73763614.png",
@@ -42,18 +46,19 @@
     "static/media/Analytics01.png": "/static/media/Analytics01.961b0d87d85164a7c36c.png",
     "static/media/ServiceBookingDiagram.png": "/static/media/ServiceBookingDiagram.66a490983ba0d9310463.png",
     "static/media/service.png": "/static/media/service.c90e9812cbd4a48617f2.png",
+    "static/media/shopifyInbox.png": "/static/media/shopifyInbox.28461de0fdef29754e2a.png",
     "static/media/bfcm.png": "/static/media/bfcm.9acff95f8adc5386915e.png",
     "static/media/design.png": "/static/media/design.b0ba198e9c1bedfdfbf4.png",
     "static/media/navIA.png": "/static/media/navIA.82608e747409bef4bcfc.png",
     "static/media/avatar.jpg": "/static/media/avatar.eddc3838d7c565e49618.jpg",
     "static/media/dahsboard.png": "/static/media/dahsboard.04387340ce137f9dc06e.png",
     "index.html": "/index.html",
-    "main.53524c0d.css.map": "/static/css/main.53524c0d.css.map",
-    "main.37070115.js.map": "/static/js/main.37070115.js.map",
+    "main.b4fa3a88.css.map": "/static/css/main.b4fa3a88.css.map",
+    "main.7cd4abae.js.map": "/static/js/main.7cd4abae.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53524c0d.css",
-    "static/js/main.37070115.js"
+    "static/css/main.b4fa3a88.css",
+    "static/js/main.7cd4abae.js"
   ]
 }
