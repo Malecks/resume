@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 import img01 from './InboxIllustration.jpg'
 import img02 from './Inbox02.png'
 import video01 from './InboxOnboarding01_720.mov'
-import video02 from './InboxOnboarding02_720.mov'
+import video03 from './InboxOnboarding03_720.mov'
 
 const InboxOnboardingProject = () => {
   return (
@@ -38,6 +38,7 @@ const InboxOnboardingProject = () => {
             </li>
         </ul>
         <img src={img02} alt="Previous app state" />
+        <caption>The previous multiple paths for installation, and the poor overview experience</caption>
       </section>
 
       <section>
@@ -74,7 +75,7 @@ const InboxOnboardingProject = () => {
             }}
             />
             <ReactPlayer 
-            url={video02} 
+            url={video03} 
             muted={true} 
             loop={true} 
             playing={true} 
@@ -86,6 +87,7 @@ const InboxOnboardingProject = () => {
             }}
             />
           </div>
+          <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
       </section>
     </article>
   );
