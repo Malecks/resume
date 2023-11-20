@@ -4,11 +4,10 @@
     --text-color: #f5f5f5;
     --interpunct-color: #555;
     --hr-color: #555;
-  
     --skill-text-color: #bfbfbf;
-    --skill-bg-color-1: #373737;
-    --skill-bg-color-2: #1c1c1c;
     --skill-text-highlight-color: #f5f5f5;
+    --skill-bg-color: #1c1c1c;
+    --skill-bg-highlight-color: #373737;
   }
 }
 
@@ -20,9 +19,10 @@
     --hr-color: #000;
   
     --skill-text-color: #555555;
-    --skill-bg-color-1: #E1E1E1;
-    --skill-bg-color-2: #F5F5F5;
     --skill-text-highlight-color: #000;
+
+    --skill-bg-color: #F5F5F5;
+    --skill-bg-highlight-color: #E1E1E1;
   }
 }
 
@@ -256,22 +256,27 @@ hr {
 
 .skill {
   display: flex;
-  padding: 0.25rem 0.375rem;
+  padding: 0.35rem 0.5rem;
   align-items: flex-start;
   gap: 0.25rem;
 
-  border-radius: 0.25rem;
-  background: linear-gradient(105deg, var(--skill-bg-color-1) 0%, var(--skill-bg-color-2) 60%);
+  border-radius: 0.5rem;
+  background-color: var(--skill-bg-color);
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.10);
   
   color: var(--skill-text-color);
   font-family: IBM Plex Mono;
   font-size: 1rem;
+
+  transition: all ease-out 200ms;
 }
 
 .skill:hover {
   color: var(--skill-text-highlight-color);
   cursor: crosshair;
+  scale: 1.025;
+  border-radius: 0.6rem;
+  background-color: var(--skill-bg-highlight-color);
 }
 
 /* Projects */
