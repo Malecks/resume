@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4fa3a88.css",
-    "main.js": "/static/js/main.59305989.js",
+    "main.css": "/static/css/main.fa41f9c4.css",
+    "main.js": "/static/js/main.dd5737c2.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
     "static/media/InboxOnboarding03_720.mov": "/static/media/InboxOnboarding03_720.adbc2c5e86c7cb84694a.mov",
     "static/media/InboxOnboarding01_720.mov": "/static/media/InboxOnboarding01_720.8bfb1b7796ea7fa05b82.mov",
@@ -52,17 +52,17 @@
     "static/media/shopifyInbox.png": "/static/media/shopifyInbox.28461de0fdef29754e2a.png",
     "static/media/bfcm.png": "/static/media/bfcm.9acff95f8adc5386915e.png",
     "static/media/design.png": "/static/media/design.b0ba198e9c1bedfdfbf4.png",
-    "static/media/origamiCounter.png": "/static/media/origamiCounter.bfdac7813ef80027b30b.png",
+    "static/media/origamiCounter.png": "/static/media/origamiCounter.71945218dc66752a64cd.png",
     "static/media/navIA.png": "/static/media/navIA.82608e747409bef4bcfc.png",
     "static/media/avatar.jpg": "/static/media/avatar.eddc3838d7c565e49618.jpg",
     "static/media/dahsboard.png": "/static/media/dahsboard.04387340ce137f9dc06e.png",
     "index.html": "/index.html",
-    "main.b4fa3a88.css.map": "/static/css/main.b4fa3a88.css.map",
-    "main.59305989.js.map": "/static/js/main.59305989.js.map",
+    "main.fa41f9c4.css.map": "/static/css/main.fa41f9c4.css.map",
+    "main.dd5737c2.js.map": "/static/js/main.dd5737c2.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4fa3a88.css",
-    "static/js/main.59305989.js"
+    "static/css/main.fa41f9c4.css",
+    "static/js/main.dd5737c2.js"
   ]
 }
