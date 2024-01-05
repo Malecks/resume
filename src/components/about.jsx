@@ -16,9 +16,6 @@ function About() {
           <p>
             I also literally live in the trees, in Vancouver, B.C. where I spend my weekends skiing, mountain biking, or hiking with my dog Billy.
           </p>
-          <p>
-            If you think I might be a good fit for your team, let's chat!
-          </p>
         </div>
     )
 }
