@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.741476aa.css",
-    "main.js": "/static/js/main.b67f6300.js",
+    "main.js": "/static/js/main.4735f258.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/BFCM23_02_720.mov": "/static/media/BFCM23_02_720.79a3196ebfc12240d1ef.mov",
+    "static/media/BFCM23_720.mov": "/static/media/BFCM23_720.af4c27791ae502f6e88d.mov",
     "static/media/InboxOnboarding03_720.mov": "/static/media/InboxOnboarding03_720.adbc2c5e86c7cb84694a.mov",
     "static/media/InboxOnboarding01_720.mov": "/static/media/InboxOnboarding01_720.8bfb1b7796ea7fa05b82.mov",
     "static/media/PaletteCam.png": "/static/media/PaletteCam.14770f46d38429906a9c.png",
@@ -19,14 +21,17 @@
     "static/media/PaletteCam2.png": "/static/media/PaletteCam2.820d21b11289f10a0418.png",
     "static/media/Inbox02.png": "/static/media/Inbox02.7ace1760a6e4fd08d5a9.png",
     "static/media/OrigamiCounter01.png": "/static/media/OrigamiCounter01.56d73934518d5ef2a899.png",
+    "static/media/BFCMTakeover.png": "/static/media/BFCMTakeover.942ee800e7c223d1f6bd.png",
     "static/media/InboxIllustration.jpg": "/static/media/InboxIllustration.b182e83b1516a63de232.jpg",
     "static/media/PaletteCamFeatured.png": "/static/media/PaletteCamFeatured.74ffa2941b3efd593b87.png",
     "static/media/DesignLibrary02.png": "/static/media/DesignLibrary02.0bdc3a27841482ca4423.png",
     "static/media/DesignLibrary01.png": "/static/media/DesignLibrary01.3dc5471be7da73763614.png",
     "static/media/DesignLibrary06.png": "/static/media/DesignLibrary06.d251dd4008fdbcd85c06.png",
     "static/media/ServiceBooking1.png": "/static/media/ServiceBooking1.e93fbf94e61fd5bc08bf.png",
+    "static/media/BFCMTab.png": "/static/media/BFCMTab.de8fda3b84f9b47fdff5.png",
     "static/media/DesignLibrary10.png": "/static/media/DesignLibrary10.bf77a843c1c2c8a47190.png",
     "static/media/DesignLibrary07.png": "/static/media/DesignLibrary07.ef6c5d28bc9c5a080c74.png",
+    "static/media/BFCMEvent.png": "/static/media/BFCMEvent.61989afa67c5391a2790.png",
     "static/media/Analytics02.png": "/static/media/Analytics02.a41ffb513fd00e506757.png",
     "static/media/DesignLibrary04.png": "/static/media/DesignLibrary04.bd884620598286874273.png",
     "static/media/CompetitorResearch.png": "/static/media/CompetitorResearch.cf7c179605e88a56ac8d.png",
@@ -46,11 +51,11 @@
     "static/media/Analytics07.png": "/static/media/Analytics07.bfc15ab1e9415c851039.png",
     "static/media/palette.png": "/static/media/palette.553655a4b2b357fec54c.png",
     "static/media/Analytics08.png": "/static/media/Analytics08.5cc7b97c5e7084ca037a.png",
+    "static/media/bfcm.png": "/static/media/bfcm.a5b3a4f72a5b68308fb7.png",
     "static/media/Analytics01.png": "/static/media/Analytics01.961b0d87d85164a7c36c.png",
     "static/media/ServiceBookingDiagram.png": "/static/media/ServiceBookingDiagram.66a490983ba0d9310463.png",
     "static/media/service.png": "/static/media/service.c90e9812cbd4a48617f2.png",
     "static/media/shopifyInbox.png": "/static/media/shopifyInbox.28461de0fdef29754e2a.png",
-    "static/media/bfcm.png": "/static/media/bfcm.9acff95f8adc5386915e.png",
     "static/media/design.png": "/static/media/design.b0ba198e9c1bedfdfbf4.png",
     "static/media/origamiCounter.png": "/static/media/origamiCounter.71945218dc66752a64cd.png",
     "static/media/navIA.png": "/static/media/navIA.82608e747409bef4bcfc.png",
@@ -58,11 +63,11 @@
     "static/media/dahsboard.png": "/static/media/dahsboard.04387340ce137f9dc06e.png",
     "index.html": "/index.html",
     "main.741476aa.css.map": "/static/css/main.741476aa.css.map",
-    "main.b67f6300.js.map": "/static/js/main.b67f6300.js.map",
+    "main.4735f258.js.map": "/static/js/main.4735f258.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.741476aa.css",
-    "static/js/main.b67f6300.js"
+    "static/js/main.4735f258.js"
   ]
 }
