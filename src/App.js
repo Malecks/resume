@@ -8,6 +8,7 @@ import About from './components/about';
 import Resume from './components/resume';
 
 import Projects from './components/projects';
+import ShopifyBFCMProject from './projects/shopify-bfcm/ShopifyBFCM'
 import InboxOnboardingProject from './projects/shopify-inbox-onboarding/InboxOnboarding';
 import CounterProject from './projects/origami-counter/OrigamiCounter';
 import ServiceBookingProject from './projects/service-booking/ServiceBooking';
@@ -36,6 +37,7 @@ function App() {
                 <Route path="/" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
+                <Route path="projects/shopify-bfcm" element={<ShopifyBFCMProject />} />
                 <Route path="projects/shopify-inbox-onboarding" element={<InboxOnboardingProject />} />
                 <Route path="projects/origami-counter" element={<CounterProject />} />
                 <Route path="projects/league-service-booking" element={<ServiceBookingProject />} />
