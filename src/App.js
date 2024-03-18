@@ -34,7 +34,8 @@ function App() {
             <Nav />
             <hr />
               <Routes>
-                <Route path="/" element={<About />} />
+                <Route path="/" element={<Projects />} />
+                <Route path="/about" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="projects/shopify-bfcm" element={<ShopifyBFCMProject />} />

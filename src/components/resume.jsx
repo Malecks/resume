@@ -4,7 +4,8 @@ const Resume = () => {
     return (
             <section className="resume">
                 <div className='positions'>
-                    <Position company="Shopify" title="Sr. Product Designer" date="2021-Present"/>
+                    <Position company="Stripe" title="Product Designer" date="2024-Present"/>
+                    <Position company="Shopify" title="Sr. Product Designer" date="2021-2024"/>
                     <Position company="League" title="Product Designer" date="2021"/>
                     <div className="complex-position">
                         <Position company="Nudge (now Axonify)" date="2016-2021"/>
@@ -13,7 +14,7 @@ const Resume = () => {
                         <Position title="Mobile Product Engineer" date="2018"/>
                         <Position title="iOS Developer" date="2016"/>
                     </div>
-                    <Position company="Palette Cam (iOS App)" title="Everything!" date="2016-Present"/>
+                    <Position company="Palette Cam (iOS App)" title="Everything!" date="2016"/>
                     <Position company="Lighthouse Labs" title="Teaching Assistant, iOS" date="2016-2017"/>
                     <Position company="MacLean's Magazine" title="Designer" date="2014-2016"/>
                 </div>

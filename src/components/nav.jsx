@@ -8,14 +8,14 @@ function Nav() {
         <div className='nav'>
             <ul>
                 <li>
-                    <NavLink to='/' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>About</NavLink>
+                    <NavLink to='/' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Projects</NavLink>
                 </li>
                 <li>
                     <NavLink to='/resume' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Resume</NavLink>
                 </li>
-                <li>
-                    <NavLink to='/projects' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>Projects</NavLink>
-                </li>
+                {/* <li>
+                    <NavLink to='/about' className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""}>About</NavLink>
+                </li> */}
             </ul>
         </div>
     )
