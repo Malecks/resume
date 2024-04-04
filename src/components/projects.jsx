@@ -13,13 +13,13 @@ import NavIAThumbnail from '../projects/thumbnails/navIA.png'
 const Projects = () => {
     return (
         <ul className="projects-list">
-            <ProjectItem name="BFCM '23" url="shopify-bfcm" desc="Shopify" img={BFCMThumbnail} />
-            <ProjectItem name="Inbox Onboarding" url="shopify-inbox-onboarding" desc="Shopify" img={ShopifyInboxThumbnail}/>
-            <ProjectItem name="Palette Cam" url="palette-cam" desc="iOS App" img={PaletteThumbnail}/>
-            <ProjectItem name="Origami Counter" url="origami-counter" desc="Animation prototype" img={CounterThumbnail}/>
-            <ProjectItem name="Service Booking" url="league-service-booking" desc="League" img={ServiceThumbnail}/>
-            <ProjectItem name="Analytics Dashboard" url="nudge-analytics-dashboard" desc="Nudge" img={AnalyticsThumbnail}/>
-            <ProjectItem name="Design System" url="nudge-design-system" desc="Nudge" img={DesignSystemThumbnail}/>
+            <ProjectItem name="BFCM '23" url="projects/shopify-bfcm" desc="Shopify" img={BFCMThumbnail} />
+            <ProjectItem name="Inbox Onboarding" url="projects/shopify-inbox-onboarding" desc="Shopify" img={ShopifyInboxThumbnail}/>
+            <ProjectItem name="Palette Cam" url="projects/palette-cam" desc="iOS App" img={PaletteThumbnail}/>
+            <ProjectItem name="Origami Counter" url="projects/origami-counter" desc="Animation prototype" img={CounterThumbnail}/>
+            <ProjectItem name="Service Booking" url="projects/league-service-booking" desc="League" img={ServiceThumbnail}/>
+            <ProjectItem name="Analytics Dashboard" url="projects/nudge-analytics-dashboard" desc="Nudge" img={AnalyticsThumbnail}/>
+            <ProjectItem name="Design System" url="projects/nudge-design-system" desc="Nudge" img={DesignSystemThumbnail}/>
             <ProjectItem name="Nav and IA revamp" url="" desc="Shopify (ask for details)" img={NavIAThumbnail} />
         </ul>
     )
