@@ -18,7 +18,7 @@ const ShopifyBFCMProject = () => {
         <h3>TLDR;</h3>
         <p>I took on the role as 'Project Champion' and lead the creation of an analytics feature to help merchants track key metrics during the Black Friday / Cyber Monday weekend on Shopify mobile.</p>
         <p>80% of Shopify mobile users regularly engage with metrics on the Home tab of the app. However, there is no way for merchants to track the BFCM period specifically, and the pre-set time periods do not line up with a long weekend event.</p>
-        <p>This presented an oppotunity to add value for merchants during a critical sales period, lean into our mobile app as a companion platform for established merchants, and create some excitement and marketing opportunities that showcase mobile capabilities</p>
+        <p>This presented an opportunity to add value for merchants during a critical sales period, lean into our mobile app as a companion platform for established merchants, and create some excitement and marketing opportunities that showcase mobile capabilities</p>
         
         <div className='video-wrapper'>
           <ReactPlayer 
