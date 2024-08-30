@@ -1,96 +1,95 @@
-import ReactPlayer from 'react-player';
+import VideoPlayer from '../../components/videoPlayer'
 
-import img01 from './InboxIllustration.jpg'
-import img02 from './Inbox02.png'
-import video01 from './InboxOnboarding01_720.mov'
-import video03 from './InboxOnboarding03_720.mov'
+// import img01 from './InboxIllustration.jpg'
+// import img02 from './Inbox02.png'
+// import video01 from './InboxOnboarding01_720.mov'
+// import video03 from './InboxOnboarding03_720.mov'
 
-const InboxOnboardingProject = () => {
+const NavIA = () => {
   return (
     <article className='project'>
       <header>
-        <h2>Inbox Onboarding</h2>
-        <h4>Creating a new onboarding experience for Shopify Inbox, within the Shopify mobile app</h4>
+        <h2>Navigation overhaul</h2>
+        <h4>Updating the navigation and information architecture for the Shopify mobile app</h4>
       </header>
 
       <section>
         <h3>TLDR;</h3>
         <p>
-            Shopify Inbox is a tool that allows merchants to communicate with potential customers. Merchants using the Shopify Admin can install the Shopify inbox app to add a chat experience to their stores. Our goal was to clean up the installation process, and create an onboarding experience to help merchants accomplish three critical set-up steps to ensure they get the most out of Shopify Inbox.
+            The Shopify mobile app lacked clear hierarchy and structure, particularly when switching between stores and accounts.
         </p>
-        <img src={img01} alt="Shopify Inbox App" />
+        {/* <img src={img01} alt="Shopify Inbox App" /> */}
       </section>
 
       <section>
-        <h3>Problems identified:</h3>
+        <h3>Problems identified</h3>
         <ul>
             <li>
-                App installation had multiple entry points with conflicting messaging and experiences. Confusing Inbox between a sales channel and an app, but only being available via sales channels after installation
+              App lacks clear hierarchy and structure
             </li>
             <li>
-                Metrics were being prioritized and taking a majority of the above the fold content even in an initial state before there are any metrics to report
+              The ‘Store’ tab is bloated and inconsistent
             </li>
             <li>
-                Merchants were not finding key actions that were identified as leading to increased sales and engagement when setting up the Shopify Inbox channel
+              Difficult to move back and forth between different areas in the app
             </li>
             <li>
-                The landing page for Inbox was a directory of links that were redundant, created an underwhelming experience, and obscured value behind additional navigation
+              Moving between accounts and stores is varied and unclear
+            </li>
+            <li>
+              Does not align with the navigational structure on web
             </li>
         </ul>
-        <img src={img02} alt="Previous app state" />
+        <h3>Goals</h3>
+        <ul>
+            <li>
+              Introduce a top level account management area
+            </li>
+            <li>
+              Create a strong and expansible foundation for navigating the mobile app
+            </li>
+            <li>
+              Alignment with web admin
+            </li>
+        </ul>
+        {/* <img src={img02} alt="Previous app state" /> */}
         <caption>The previous multiple paths for installation, and the poor overview experience</caption>
       </section>
 
       <section>
-        <h3>Solution:</h3>
+        <h3>My Role: UX Lead</h3>
         <ul>
             <li>
-                Create consistent clear messaging around a single path for installation
+              Work closely with the project champion and project manager as a trifecta member
             </li>
             <li>
-                Add prompts with key messaging for each onboarding step to set up the channel, and merchants, for maximum success
+              Middle to late stage feature design
             </li>
             <li>
-                Eliminate unnecessary navigation by sending merchants directly to the overview page
+              Interaction prototyping
             </li>
             <li>
-                Hide metrics until the merchant is in a position to take advantage of them, decluttering the overview page and emphasizing onboarding steps
+              Presenting and generating alignment with key stakeholders and senior leadership
             </li>
             <li>
-                Introduce information to the channel progressively as the merchant completes setup steps
+              Documenting and illustrating key decisions
+            </li>
+            <li>
+              Closely pairing with developers on implementation details
+            </li>
+            <li>
+              Pairing with teams on connecting work to provide context and direction
             </li>
         </ul>
 
         <div className='video-wrapper'>
-          <ReactPlayer 
-            url={video01} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
-            <ReactPlayer 
-            url={video03} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
-          </div>
-          <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
+          <VideoPlayer url={""} />
+          <VideoPlayer url={""} />
+        </div>
+        <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
       </section>
     </article>
   );
 };
 
-export default InboxOnboardingProject;
+export default NavIA;

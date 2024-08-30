@@ -20,7 +20,7 @@ const Projects = () => {
             <ProjectItem name="Service Booking" url="projects/league-service-booking" desc="League" img={ServiceThumbnail}/>
             <ProjectItem name="Analytics Dashboard" url="projects/nudge-analytics-dashboard" desc="Nudge" img={AnalyticsThumbnail}/>
             <ProjectItem name="Design System" url="projects/nudge-design-system" desc="Nudge" img={DesignSystemThumbnail}/>
-            <ProjectItem name="Nav and IA revamp" url="" desc="Shopify (ask for details)" img={NavIAThumbnail} />
+            <ProjectItem name="Nav and IA revamp" url="projects/shopify-nav-ia" desc="Shopify Nav + IA" img={NavIAThumbnail} />
         </ul>
     )
 }

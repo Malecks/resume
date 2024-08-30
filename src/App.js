@@ -15,6 +15,7 @@ import ServiceBookingProject from './projects/service-booking/ServiceBooking';
 import PaletteCamProject from './projects/palette-cam/PaletteCam';
 import NudgeAnalyticsDashboardProject from './projects/nudge-analytics-dashboard/nudgeAnalytics';
 import NudgeDesignSystemProject from './projects/nudge-design-system/NudgeDesignSystem';
+import NavIA from './projects/shopify-nav-ia/NavIA';
 
 import React from "react";
 import {
@@ -45,6 +46,7 @@ function App() {
                 <Route path="projects/palette-cam" element={<PaletteCamProject />} />
                 <Route path="projects/nudge-analytics-dashboard" element={<NudgeAnalyticsDashboardProject />} />
                 <Route path="projects/nudge-design-system" element={<NudgeDesignSystemProject />} />
+                <Route path="projects/shopify-nav-ia" element={<NavIA />} />
               </Routes>
           </Router>
           <hr />
