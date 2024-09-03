@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player';
+import VideoPlayer from '../../components/videoPlayer';
 
 import img01 from './OrigamiCounter01.png'
 import video01 from './OrigamiCounter01_720.mov'
@@ -28,32 +28,8 @@ const CounterProject = () => {
           <li><strong>Handy for developers</strong>: the component was easy to share with developers and provided a template for how to implement the animation in code</li>
         </ul>
         <div className='video-wrapper'>
-          <ReactPlayer 
-              url={video01} 
-              muted={true} 
-              loop={true} 
-              playing={true} 
-              width='auto' 
-              height='auto' 
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flex: '2', 
-              }}
-            />
-            <ReactPlayer 
-              url={video02} 
-              muted={true} 
-              loop={true} 
-              playing={true} 
-              width='auto' 
-              height='auto' 
-              style={{
-                display: 'flex',
-                justifyContent: 'center',
-                flex: '3' 
-              }}
-            />
+          <VideoPlayer url={video01} />
+          <VideoPlayer url={video02} />
           </div>
       </section>
 

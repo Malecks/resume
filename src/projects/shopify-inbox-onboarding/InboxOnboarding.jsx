@@ -1,5 +1,4 @@
-import ReactPlayer from 'react-player';
-
+import VideoPlayer from '../../components/videoPlayer'
 import img01 from './InboxIllustration.jpg'
 import img02 from './Inbox02.png'
 import video01 from './InboxOnboarding01_720.mov'
@@ -62,30 +61,8 @@ const InboxOnboardingProject = () => {
         </ul>
 
         <div className='video-wrapper'>
-          <ReactPlayer 
-            url={video01} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
-            <ReactPlayer 
-            url={video03} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
+          <VideoPlayer url={video01}/>
+            <VideoPlayer url={video03}/>
           </div>
           <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
       </section>

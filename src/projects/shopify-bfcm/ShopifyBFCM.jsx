@@ -1,4 +1,4 @@
-import ReactPlayer from 'react-player';
+import VideoPlayer from '../../components/videoPlayer'
 
 import img01 from './BFCMTab.png'
 import img02 from './BFCMTakeover.png'
@@ -21,30 +21,8 @@ const ShopifyBFCMProject = () => {
         <p>This presented an opportunity to add value for merchants during a critical sales period, lean into our mobile app as a companion platform for established merchants, and create some excitement and marketing opportunities that showcase mobile capabilities</p>
         
         <div className='video-wrapper'>
-          <ReactPlayer 
-            url={video01} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
-            <ReactPlayer 
-            url={video02} 
-            muted={true} 
-            loop={true} 
-            playing={true} 
-            width='auto' 
-            height='auto' 
-            style={{
-              display: 'flex',
-              justifyContent: 'center', 
-            }}
-            />
+          <VideoPlayer url={video01} />
+          <VideoPlayer url={video02} />
           </div>
           <caption>A late prototype (left) and the final product (right)</caption>
       </section>

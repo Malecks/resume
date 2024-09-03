@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player"
 
-function videoPlayer(url) {
+function VideoPlayer({url}) {
     return (
         <ReactPlayer 
             url={url}
@@ -17,4 +17,4 @@ function videoPlayer(url) {
     )
 }
 
-export default videoPlayer
+export default VideoPlayer
