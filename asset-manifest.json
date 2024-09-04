@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.4431e5fa.css",
-    "main.js": "/static/js/main.f7db47e5.js",
+    "main.css": "/static/css/main.52e0683f.css",
+    "main.js": "/static/js/main.078ff682.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
     "static/media/BFCM23_02_720.mov": "/static/media/BFCM23_02_720.79a3196ebfc12240d1ef.mov",
     "static/media/BFCM23_720.mov": "/static/media/BFCM23_720.af4c27791ae502f6e88d.mov",
+    "static/media/NavIAVideo01_720.mov": "/static/media/NavIAVideo01_720.f578e6d075a3bbe5fac9.mov",
     "static/media/InboxOnboarding03_720.mov": "/static/media/InboxOnboarding03_720.adbc2c5e86c7cb84694a.mov",
+    "static/media/NavIAVideo02_720.mov": "/static/media/NavIAVideo02_720.79dd57999bc6bd27c67b.mov",
     "static/media/InboxOnboarding01_720.mov": "/static/media/InboxOnboarding01_720.8bfb1b7796ea7fa05b82.mov",
     "static/media/PaletteCam.png": "/static/media/PaletteCam.14770f46d38429906a9c.png",
     "static/media/OrigamiCounter02_720.mov": "/static/media/OrigamiCounter02_720.9df6d9307fbb607feda2.mov",
@@ -27,7 +29,9 @@
     "static/media/DesignLibrary02.png": "/static/media/DesignLibrary02.0bdc3a27841482ca4423.png",
     "static/media/DesignLibrary01.png": "/static/media/DesignLibrary01.3dc5471be7da73763614.png",
     "static/media/DesignLibrary06.png": "/static/media/DesignLibrary06.d251dd4008fdbcd85c06.png",
+    "static/media/NavIA01.png": "/static/media/NavIA01.cbcb0429ab41c047b4af.png",
     "static/media/ServiceBooking1.png": "/static/media/ServiceBooking1.e93fbf94e61fd5bc08bf.png",
+    "static/media/NavIA02.png": "/static/media/NavIA02.70e9cbe5eee99767b517.png",
     "static/media/BFCMTab.png": "/static/media/BFCMTab.de8fda3b84f9b47fdff5.png",
     "static/media/DesignLibrary10.png": "/static/media/DesignLibrary10.bf77a843c1c2c8a47190.png",
     "static/media/DesignLibrary07.png": "/static/media/DesignLibrary07.ef6c5d28bc9c5a080c74.png",
@@ -38,8 +42,8 @@
     "static/media/DesignLibrary12.png": "/static/media/DesignLibrary12.e3bd2a7bae1a04d7cd7f.png",
     "static/media/Analytics04.png": "/static/media/Analytics04.ced9de0bb8f9d8634d17.png",
     "static/media/DesignLibrary05.png": "/static/media/DesignLibrary05.6e239be6adcce1d71d5f.png",
-    "static/media/DesignLibrary09.png": "/static/media/DesignLibrary09.91e2fc948008c8e3b767.png",
     "static/media/DesignLibrary03.png": "/static/media/DesignLibrary03.3875219eec68aef47399.png",
+    "static/media/NavIA03.png": "/static/media/NavIA03.66fdd99d899facb768b5.png",
     "static/media/Time1.png": "/static/media/Time1.59bc165ed2dd059dabbb.png",
     "static/media/ServiceBooking2.png": "/static/media/ServiceBooking2.e7c9620bcfa76c559619.png",
     "static/media/Analytics03.png": "/static/media/Analytics03.a597c8b23e7f6f32c5d4.png",
@@ -53,21 +57,20 @@
     "static/media/Analytics08.png": "/static/media/Analytics08.5cc7b97c5e7084ca037a.png",
     "static/media/bfcm.png": "/static/media/bfcm.71473c96de0e1c96d3ac.png",
     "static/media/Analytics01.png": "/static/media/Analytics01.961b0d87d85164a7c36c.png",
-    "static/media/ServiceBookingDiagram.png": "/static/media/ServiceBookingDiagram.66a490983ba0d9310463.png",
     "static/media/service.png": "/static/media/service.c90e9812cbd4a48617f2.png",
     "static/media/shopifyInbox.png": "/static/media/shopifyInbox.28461de0fdef29754e2a.png",
     "static/media/design.png": "/static/media/design.b0ba198e9c1bedfdfbf4.png",
     "static/media/origamiCounter.png": "/static/media/origamiCounter.71945218dc66752a64cd.png",
-    "static/media/navIA.png": "/static/media/navIA.82608e747409bef4bcfc.png",
     "static/media/avatar.jpg": "/static/media/avatar.eddc3838d7c565e49618.jpg",
     "static/media/dahsboard.png": "/static/media/dahsboard.04387340ce137f9dc06e.png",
+    "static/media/navIA.png": "/static/media/navIA.4b1369e85a1573f40167.png",
     "index.html": "/index.html",
-    "main.4431e5fa.css.map": "/static/css/main.4431e5fa.css.map",
-    "main.f7db47e5.js.map": "/static/js/main.f7db47e5.js.map",
+    "main.52e0683f.css.map": "/static/css/main.52e0683f.css.map",
+    "main.078ff682.js.map": "/static/js/main.078ff682.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4431e5fa.css",
-    "static/js/main.f7db47e5.js"
+    "static/css/main.52e0683f.css",
+    "static/js/main.078ff682.js"
   ]
 }
