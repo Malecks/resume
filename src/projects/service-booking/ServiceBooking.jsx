@@ -41,9 +41,9 @@ const ServiceBookingProject = () => {
           <img src={speedy03} alt="Service booking" />
           <img src={speedy04} alt="Service booking" />
         </div>
-        <caption>Speedy 8's: results from a cross-functional workshop</caption>
+        <div className='image-caption'>Speedy 8's: results from a cross-functional workshop</div>
         <img src={research} alt="Competitor research" />
-        <caption>Competitor research</caption>
+        <div className='image-caption'>Competitor research</div>
 
       </section>
 
@@ -61,7 +61,7 @@ const ServiceBookingProject = () => {
           <img src={time01} alt="Service booking" />
           <img src={time02} alt="Service booking" />
         </div>
-        <caption>A selection of screens from the final feature</caption>
+        <div className='image-caption'>A selection of screens from the final feature</div>
       </section>
 
       <section>

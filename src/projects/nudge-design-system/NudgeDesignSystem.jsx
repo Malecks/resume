@@ -59,7 +59,7 @@ const NudgeDesignSystemProject = () => {
           <img src={img03} alt="Design Library" />
           <img src={img04} alt="Design Library" />
         </div>
-        <caption>Various components, combining to create molecules and full screens</caption>
+        <div className='image-caption'>Various components, combining to create molecules and full screens</div>
       </section>
 
       <section>
@@ -77,7 +77,7 @@ const NudgeDesignSystemProject = () => {
           Finally, I was able to use our libraries to create a new type of resource for white-labeling product mockups. By leveraging our usage of colour styles in the library, I was able to create a Sketch document that will cascade changes to those colour styles through every feature mock in a way that replicates our in-app feature for white-labeling.
         </p>
         <img src={img11} alt="Design Library" />
-        <caption>The design system was extended to our CMS backend</caption>
+        <div className='image-caption'>The design system was extended to our CMS backend</div>
       </section>
 
       <section>
@@ -111,7 +111,7 @@ const NudgeDesignSystemProject = () => {
           <img src={img07} alt="Design Library" />
           <img src={img12} alt="Design Library" />
         </div>
-        <caption>More components for mobile and desktop</caption>
+        <div className='image-caption'>More components for mobile and desktop</div>
       </section>
       <section>
         <h3>Conclusion</h3>

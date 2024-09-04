@@ -37,7 +37,7 @@ const NudgeAnalyticsDashboardProject = () => {
             <img src={img03} alt="Previous dashboard" />
             <img src={img09} alt="Analytics flow chart" />
           </div>
-          <caption>Previous dashbords, and a flow chart</caption>
+          <div className='image-caption'>Previous dashbords, and a flow chart</div>
         </section>
 
         <section>
@@ -62,7 +62,7 @@ const NudgeAnalyticsDashboardProject = () => {
             <img src={img07} alt="Analytics" />
             <img src={img06} alt="Analytics" />
           </div>
-          <caption>Examples of the updated dashboards</caption>
+          <div className='image-caption'>Examples of the updated dashboards</div>
         </section>
 
         <section>

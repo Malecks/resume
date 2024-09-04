@@ -24,7 +24,7 @@ const ShopifyBFCMProject = () => {
           <VideoPlayer url={video01} />
           <VideoPlayer url={video02} />
           </div>
-          <caption>A late prototype (left) and the final product (right)</caption>
+          <div className='image-caption'>A late prototype (left) and the final product (right)</div>
       </section>
 
       <section>

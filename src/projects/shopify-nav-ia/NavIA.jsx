@@ -16,14 +16,18 @@ const NavIA = () => {
 
       <section>
         <h3>TLDR;</h3>
+
         <p>
-            The Shopify mobile app lacked clear hierarchy and structure, particularly when switching between stores and accounts.
+
         </p>
         <img src={img03} alt="Shopify Nav and IA revamp" />
       </section>
 
       <section>
         <h3>Problems identified</h3>
+        <p>
+          The Shopify mobile app lacked clear hierarchy and structure, particularly when switching between stores and accounts. Settings were scattered across different tabs, and accounts and stores are intertwined unintuitively. Many important workflows were hidden behind a bloated 'Store' tab which has no equivalent on the web app. And finally, there was an awkward behaviour to enable and disable your stores on the app.
+        </p>
         <ul>
             <li>
               App lacks clear hierarchy and structure
@@ -32,13 +36,10 @@ const NavIA = () => {
               The ‘Store’ tab is bloated and inconsistent
             </li>
             <li>
-              Difficult to move back and forth between different areas in the app
-            </li>
-            <li>
-              Moving between accounts and stores is varied and unclear
-            </li>
-            <li>
               Does not align with the navigational structure on web
+            </li>
+            <li>
+              Enabling and disabling your stores is confusing
             </li>
         </ul>
         <h3>Goals</h3>
@@ -54,12 +55,14 @@ const NavIA = () => {
             </li>
         </ul>
         <img src={img01} alt="Previous app state" />
-        <caption>The previous state of the app. Account and store settings were jumbled, with unintuitive paths to switch between them or access settings.</caption>
-
-        <img src={img02} alt="Previous app state" />
-        <caption>Visualizing how we wanted to group like content together, and reduce the complexity of 'adding or removing' stores.</caption>
-
+        <div className='image-caption'>
+          The previous state of the app. Account and store settings were jumbled, with unintuitive paths to switch between them or access settings.
+        </div>
       </section>
+
+
+      <img src={img02} alt="Previous app state" />
+      <div className='image-caption'>Visualizing how we wanted to group like content together, and reduce the complexity of 'adding or removing' stores.</div>
 
       <section>
         <h3>My Role: UX Lead</h3>
@@ -86,13 +89,12 @@ const NavIA = () => {
               Pairing with teams on connecting work to provide context and direction
             </li>
         </ul>
-
-        <div className='video-wrapper'>
+      </section>
+      <div className='video-wrapper'>
           <VideoPlayer url={video01} />
           <VideoPlayer url={video02} />
-        </div>
-        <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
-      </section>
+      </div>
+      <div className='image-caption'>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</div>
     </article>
   );
 };
