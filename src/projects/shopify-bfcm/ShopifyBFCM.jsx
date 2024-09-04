@@ -77,7 +77,7 @@ const ShopifyBFCMProject = () => {
             </li>
         </ul>
         <img src={img01} alt="BFCM '23 on Shopify mobile" />
-        <caption>The final designs</caption>
+        <div className='image-caption'>The final designs</div>
       </section>
 
       <section>
@@ -98,7 +98,7 @@ const ShopifyBFCMProject = () => {
             <li>Invest time saved into a high-quality countdown experience</li>
         </ul>
         <img src={img02} alt="BFCM '23 on Shopify mobile" />
-        <caption>An early prototype using SwiftUI and Live activities</caption>
+        <div className='image-caption'>An early prototype using SwiftUI and Live activities</div>
       </section>
 
       <section>
@@ -131,7 +131,7 @@ const ShopifyBFCMProject = () => {
             Crucially, we also released with no major issues or reported incidents. This was a result of regular testing in the leadup to an early release, and ensured that our merchants were in great shape for a very important sales weekend!
         </p>
         <img src={img03} alt="BFCM '23 on Shopify mobile" />
-        <caption>BFCM '23 event in the iOS App store</caption>
+        <div className='image-caption'>BFCM '23 event in the iOS App store</div>
       </section>
     </article>
   );

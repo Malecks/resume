@@ -37,7 +37,7 @@ const InboxOnboardingProject = () => {
             </li>
         </ul>
         <img src={img02} alt="Previous app state" />
-        <caption>The previous multiple paths for installation, and the poor overview experience</caption>
+        <div className='image-caption'>The previous multiple paths for installation, and the poor overview experience</div>
       </section>
 
       <section>
@@ -64,7 +64,7 @@ const InboxOnboardingProject = () => {
           <VideoPlayer url={video01}/>
             <VideoPlayer url={video03}/>
           </div>
-          <caption>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</caption>
+          <div className='image-caption'>Prototypes of the new Inbox Onboarding experience, made in Origami Stuido</div>
       </section>
     </article>
   );
