@@ -29,7 +29,7 @@ const ProjectItem = ({name, url, desc, img}) => {
     return (
         <Link to={url} className="project-item">
             <li>
-                <img className="project-thumbnail" src={img} />
+                <img className="project-thumbnail" src={img} alt=""/>
                 <div className="project-info">
                     <h4>
                         {name}

@@ -1,7 +1,6 @@
 import cover from './ServiceBookingCover.png'
 import img01 from './ServiceBooking1.png'
 import img02 from './ServiceBooking2.png'
-import diagram from './ServiceBookingDiagram.png'
 import speedy01 from './SpeedyEights1.png'
 import speedy02 from './SpeedyEights2.png'
 import speedy03 from './SpeedyEights3.png'
