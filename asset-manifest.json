@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f2fc7ff7.css",
-    "main.js": "/static/js/main.ac1961db.js",
+    "main.js": "/static/js/main.e95afea6.js",
     "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
     "static/media/BFCM23_02_720.mov": "/static/media/BFCM23_02_720.79a3196ebfc12240d1ef.mov",
     "static/media/BFCM23_720.mov": "/static/media/BFCM23_720.af4c27791ae502f6e88d.mov",
@@ -60,20 +60,27 @@
     "static/media/service.png": "/static/media/service.c90e9812cbd4a48617f2.png",
     "static/media/shopifyInbox.png": "/static/media/shopifyInbox.28461de0fdef29754e2a.png",
     "static/media/design.png": "/static/media/design.b0ba198e9c1bedfdfbf4.png",
+    "static/media/avatar01.jpg": "/static/media/avatar01.2aa74ee76033dd6ace74.jpg",
+    "static/media/avatar11.jpg": "/static/media/avatar11.a66fb5657d86e5fe99c7.jpg",
+    "static/media/avatar02.jpg": "/static/media/avatar02.0077bc12c027d007e294.jpg",
+    "static/media/avatar09.jpg": "/static/media/avatar09.507bc1ce79d034d6763f.jpg",
+    "static/media/avatar07.jpg": "/static/media/avatar07.5ec006249ecc517a8ad9.jpg",
+    "static/media/avatar10.jpg": "/static/media/avatar10.425b766645c1d171fb5a.jpg",
+    "static/media/avatar05.jpg": "/static/media/avatar05.43c00608f9b06828e3ac.jpg",
     "static/media/origamiCounter.png": "/static/media/origamiCounter.71945218dc66752a64cd.png",
-    "static/media/avatar.jpg": "/static/media/avatar.946a566efcdae7f32bdd.jpg",
-    "static/media/avatar02.jpg": "/static/media/avatar02.d278d500cf6d195358fb.jpg",
-    "static/media/avatar03.jpg": "/static/media/avatar03.a250ce5b2aee2076ed71.jpg",
-    "static/media/avatar04.jpg": "/static/media/avatar04.18bbaec95d3192e46f57.jpg",
+    "static/media/avatar04.jpg": "/static/media/avatar04.a7f1b39985be0bcaa44c.jpg",
+    "static/media/avatar03.jpg": "/static/media/avatar03.dcf058937c34a739f3f7.jpg",
+    "static/media/avatar08.jpg": "/static/media/avatar08.8fd7b63f991180f5654e.jpg",
+    "static/media/avatar06.jpg": "/static/media/avatar06.0e84e37bb6a5adb7ae53.jpg",
     "static/media/dahsboard.png": "/static/media/dahsboard.04387340ce137f9dc06e.png",
     "static/media/navIA.png": "/static/media/navIA.4b1369e85a1573f40167.png",
     "index.html": "/index.html",
     "main.f2fc7ff7.css.map": "/static/css/main.f2fc7ff7.css.map",
-    "main.ac1961db.js.map": "/static/js/main.ac1961db.js.map",
+    "main.e95afea6.js.map": "/static/js/main.e95afea6.js.map",
     "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2fc7ff7.css",
-    "static/js/main.ac1961db.js"
+    "static/js/main.e95afea6.js"
   ]
 }
