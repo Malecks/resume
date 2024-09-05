@@ -18,7 +18,6 @@ const Avatar = ({ defaultImage, hoverImages }) => {
       alt="Alex Mathers"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-    //   style={{ transition: 'opacity 0.3s ease' }}
     />
   );
 };
