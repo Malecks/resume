@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 
+import StripeThumbnail from '../projects/thumbnails/stripe.png'
 import BFCMThumbnail from '../projects/thumbnails/bfcm.png'
 import NavIAThumbnail from '../projects/thumbnails/navIA.png'
 import ShopifyInboxThumbnail from '../projects/thumbnails/shopifyInbox.png'
@@ -21,6 +22,7 @@ const Projects = () => {
             <ProjectItem name="Service Booking" url="projects/league-service-booking" desc="League" img={ServiceThumbnail}/>
             <ProjectItem name="Analytics Dashboard" url="projects/nudge-analytics-dashboard" desc="Nudge" img={AnalyticsThumbnail}/>
             <ProjectItem name="Design System" url="projects/nudge-design-system" desc="Nudge" img={DesignSystemThumbnail}/>
+            <ProjectItem name="Financial connections" url="" desc="Stripe (ask for details)" img={StripeThumbnail} />
         </ul>
     )
 }
